@@ -1,6 +1,6 @@
 {
-  "name": "@nivo/geo",
-  "version": "0.55.0",
+  "name": "@x-nivo/geo",
+  "version": "0.55.1",
   "license": "MIT",
   "author": {
     "name": "Raphaël Benitte",
@@ -24,8 +24,8 @@
     "index.d.ts"
   ],
   "dependencies": {
-    "@nivo/core": "0.55.0",
-    "@nivo/legends": "0.55.0",
+    "@x-nivo/core": "0.55.1",
+    "@x-nivo/legends": "0.55.1",
     "d3-format": "^1.3.2",
     "d3-geo": "^1.11.3",
     "lodash": "^4.17.4"

@@ -75,7 +75,7 @@
       "postinstall": "npm ls --depth 0"
     }
   },
-  "private": false,
+  "private": true,
   "licenses": [
     {
       "type": "MIT",

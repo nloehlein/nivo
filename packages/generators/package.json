@@ -1,6 +1,6 @@
 {
-  "name": "@nivo/generators",
-  "version": "0.55.0",
+  "name": "@x-nivo/generators",
+  "version": "0.55.1",
   "licenses": [
     {
       "type": "MIT",
