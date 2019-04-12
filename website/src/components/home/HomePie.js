@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { generateProgrammingLanguageStats } from '@nivo/generators'
+import { generateProgrammingLanguageStats } from '@x-nivo/generators'
 import { ResponsivePie } from '@x-nivo/pie'
 import { HomeItem, HomeItemLabel } from './styled'
 

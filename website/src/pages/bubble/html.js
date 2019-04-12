@@ -8,7 +8,7 @@
  */
 import React from 'react'
 import { ResponsiveBubbleHtml, BubbleHtmlDefaultProps } from '@x-nivo/circle-packing'
-import { generateLibTree } from '@nivo/generators'
+import { generateLibTree } from '@x-nivo/generators'
 import ComponentTemplate from '../../components/components/ComponentTemplate'
 import meta from '../../data/components/bubble/meta.yml'
 import mapper from '../../data/components/bubble/mapper'

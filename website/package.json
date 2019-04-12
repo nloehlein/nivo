@@ -4,7 +4,7 @@
   "private": true,
   "description": "nivo website",
   "dependencies": {
-    "@nivo/generators": "^0.56.2",
+    "@x-nivo/generators": "^0.56.2",
     "@x-nivo/bar": "^0.56.2",
     "@x-nivo/bullet": "^0.56.2",
     "@x-nivo/calendar": "^0.56.2",

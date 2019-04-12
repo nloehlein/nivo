@@ -8,7 +8,7 @@
  */
 import React from 'react'
 import { ResponsiveSunburst } from '@x-nivo/sunburst'
-import { generateLibTree } from '@nivo/generators'
+import { generateLibTree } from '@x-nivo/generators'
 import ComponentTemplate from '../../components/components/ComponentTemplate'
 import meta from '../../data/components/sunburst/meta.yml'
 import mapper from '../../data/components/sunburst/mapper'

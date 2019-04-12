@@ -1967,18 +1967,18 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@nivo/babel-preset@0.54.0":
+"@x-nivo/babel-preset@0.54.0":
   version "0.54.0"
-  resolved "https://registry.yarnpkg.com/@nivo/babel-preset/-/babel-preset-0.54.0.tgz#d2a5abb9506454bc84b8616561663b86a1e0851c"
+  resolved "https://registry.yarnpkg.com/@x-nivo/babel-preset/-/babel-preset-0.54.0.tgz#d2a5abb9506454bc84b8616561663b86a1e0851c"
   integrity sha512-iFFqN5bRdttfcfd8BGJJ4NY7hTpoqueapcZsKAKM0y2YY5fPG2CdBUqR9i7wM+uk5AtmX2OCF2hxgkI54hgFqg==
   dependencies:
     "@babel/plugin-proposal-class-properties" "^7.4.0"
     "@babel/preset-env" "^7.4.1"
     babel-plugin-lodash "^3.3.4"
 
-"@nivo/generators@0.54.0":
+"@x-nivo/generators@0.54.0":
   version "0.54.0"
-  resolved "https://registry.yarnpkg.com/@nivo/generators/-/generators-0.54.0.tgz#6f4b6e6fdba3e90823b1ffc815952dbf0333343c"
+  resolved "https://registry.yarnpkg.com/@x-nivo/generators/-/generators-0.54.0.tgz#6f4b6e6fdba3e90823b1ffc815952dbf0333343c"
   integrity sha512-kK3t7JDguJVbzLq1N7uVOUJODLNw3AQcmU+lDKN3sps/7WXBfW9SNWKp4GIkNaQ42iwZR85/rUGofVjtYqQeEg==
   dependencies:
     d3-time "^1.0.10"

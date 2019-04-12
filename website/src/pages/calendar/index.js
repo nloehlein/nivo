@@ -8,7 +8,7 @@
  */
 import React from 'react'
 import { ResponsiveCalendar, CalendarDefaultProps } from '@x-nivo/calendar'
-import { generateDayCounts } from '@nivo/generators'
+import { generateDayCounts } from '@x-nivo/generators'
 import ComponentTemplate from '../../components/components/ComponentTemplate'
 import meta from '../../data/components/calendar/meta.yml'
 import mapper from '../../data/components/calendar/mapper'

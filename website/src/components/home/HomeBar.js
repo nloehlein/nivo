@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { generateCountriesData } from '@nivo/generators'
+import { generateCountriesData } from '@x-nivo/generators'
 import { ResponsiveBar } from '@x-nivo/bar'
 import { HomeItem, HomeItemLabel } from './styled'
 import { commonAxes } from './settings'

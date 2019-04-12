@@ -1,7 +1,7 @@
 import React from 'react'
 import { ResponsiveStream } from '@x-nivo/stream'
 import { patternDotsDef } from '@x-nivo/core'
-import { generateCountriesData } from '@nivo/generators'
+import { generateCountriesData } from '@x-nivo/generators'
 import { colors } from '../../constants'
 
 const Stream = () => (

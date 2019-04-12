@@ -9,7 +9,7 @@
 import React from 'react'
 import { patternLinesDef } from '@x-nivo/core'
 import { ResponsiveBubble, BubbleDefaultProps } from '@x-nivo/circle-packing'
-import { generateLibTree } from '@nivo/generators'
+import { generateLibTree } from '@x-nivo/generators'
 import ComponentTemplate from '../../components/components/ComponentTemplate'
 import meta from '../../data/components/bubble/meta.yml'
 import mapper from '../../data/components/bubble/mapper'

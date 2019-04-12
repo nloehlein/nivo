@@ -47,7 +47,7 @@ const commonPlugins = [
         exclude: 'node_modules/**',
         externalHelpers: true,
         presets: [
-            '@nivo/babel-preset'
+            '@x-nivo/babel-preset'
         ]
     }),
     cleanup()

@@ -22,7 +22,7 @@
     "nodemon": "^1.18.10"
   },
   "dependencies": {
-    "@nivo/generators": "^0.56.2",
+    "@x-nivo/generators": "^0.56.2",
     "@x-nivo/bar": "^0.56.2",
     "@x-nivo/bullet": "^0.56.2",
     "@x-nivo/calendar": "^0.56.2",
@@ -62,5 +62,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "c06a3ec8e7fb047e5bd2b6050ef6e0b764e4c63f"
+  "gitHead": "1d9f637cc1bf7f452488f31476fd41314f98dcb8"
 }

@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { generateChordData } from '@nivo/generators'
+import { generateChordData } from '@x-nivo/generators'
 import { ResponsiveChordCanvas } from '@x-nivo/chord'
 import ComponentTemplate from '../../components/components/ComponentTemplate'
 import meta from '../../data/components/chord/meta.yml'

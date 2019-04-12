@@ -945,9 +945,9 @@
     react-motion "^0.5.2"
     recompose "^0.30.0"
 
-"@nivo/generators@0.55.0":
+"@x-nivo/generators@0.55.0":
   version "0.55.1"
-  resolved "https://registry.yarnpkg.com/@nivo/generators/-/generators-0.55.0.tgz#9e8d50e8a3f26b90a1a4b4835a1e049cb76e28db"
+  resolved "https://registry.yarnpkg.com/@x-nivo/generators/-/generators-0.55.0.tgz#9e8d50e8a3f26b90a1a4b4835a1e049cb76e28db"
   integrity sha512-ACFpsYu2JrrrLlv5Bun+Hrns6AqiILgVM0PmISSr7e7oOEUsp22QVK/MWzdeQQXKJLYC5K2T2cTIwhcT4JzRkw==
   dependencies:
     d3-time "^1.0.10"

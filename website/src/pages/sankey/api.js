@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { generateSankeyData } from '@nivo/generators'
+import { generateSankeyData } from '@x-nivo/generators'
 import SEO from '../../components/seo'
 import ApiClient from '../../components/components/api-client/ApiClient'
 import { groupsByScope } from '../../data/components/sankey/props'

@@ -1,6 +1,6 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
-import { generateChordData } from '@nivo/generators'
+import { generateChordData } from '@x-nivo/generators'
 import { Chord } from '../src'
 
 const commonProperties = {

@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { generateWinesTastes } from '@nivo/generators'
+import { generateWinesTastes } from '@x-nivo/generators'
 import Layout from '../../components/Layout'
 import SEO from '../../components/seo'
 import ApiClient from '../../components/components/api-client/ApiClient'

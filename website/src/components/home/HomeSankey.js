@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { generateSankeyData } from '@nivo/generators'
+import { generateSankeyData } from '@x-nivo/generators'
 import { ResponsiveSankey } from '@x-nivo/sankey'
 import { HomeItem, HomeItemLabel } from './styled'
 

@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { generateDrinkStats } from '@nivo/generators'
+import { generateDrinkStats } from '@x-nivo/generators'
 import { ResponsiveLine } from '@x-nivo/line'
 import { HomeItem, HomeItemLabel } from './styled'
 import { commonAxes } from './settings'

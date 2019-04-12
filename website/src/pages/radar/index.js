@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { generateWinesTastes } from '@nivo/generators'
+import { generateWinesTastes } from '@x-nivo/generators'
 import { ResponsiveRadar } from '@x-nivo/radar'
 import ComponentTemplate from '../../components/components/ComponentTemplate'
 import meta from '../../data/components/radar/meta.yml'

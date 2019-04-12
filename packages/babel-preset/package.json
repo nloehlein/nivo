@@ -1,5 +1,5 @@
 {
-  "name": "@nivo/babel-preset",
+  "name": "@x-nivo/babel-preset",
   "version": "0.56.2",
   "description": "nivo babel preset",
   "repository": {
@@ -22,5 +22,5 @@
   "scripts": {
     "version": "echo ${npm_package_version}"
   },
-  "gitHead": "c06a3ec8e7fb047e5bd2b6050ef6e0b764e4c63f"
+  "gitHead": "1d9f637cc1bf7f452488f31476fd41314f98dcb8"
 }

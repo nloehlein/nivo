@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { generateDayCounts } from '@nivo/generators'
+import { generateDayCounts } from '@x-nivo/generators'
 import { ResponsiveCalendarCanvas } from '@x-nivo/calendar'
 import { HomeItem, HomeItemLabel } from './styled'
 

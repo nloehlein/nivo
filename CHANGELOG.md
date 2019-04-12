@@ -600,7 +600,7 @@
 * **examples**
   *  ensure examples build successfully on CI ([2ad46b7a](https://github.com/plouc/nivo/commit/2ad46b7af65fdcb7a3bb63d76327e3742e846776))
   * fix retro example dependencies ([2c84d014](https://github.com/plouc/nivo/commit/2c84d014c0ad88d1574f8ec5552cd837316a4371))
-* **generators**  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
 * **legends**  init legends package ([4063428b](https://github.com/plouc/nivo/commit/4063428baa626dd2e0810b830ca4cf6e5cde3b5a))
 * **lerna**  exclude demo & examples from lerna ([aa255ebf](https://github.com/plouc/nivo/commit/aa255ebf94cfbdf7d997ad48e6edbaaaf54657f3))
 * **line**  add support for legends on Line component ([b7cc2449](https://github.com/plouc/nivo/commit/b7cc2449dc068e53e1449e7c04f09af7ebe8c624))
@@ -701,7 +701,7 @@
 
 #### Features
 
-* **generators**  use @nivo/generators instead of nivo-generators ([a055d0e5](https://github.com/plouc/nivo/commit/a055d0e56d6acc46cfc73a88feb28ae386e0aeaa))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([a055d0e5](https://github.com/plouc/nivo/commit/a055d0e56d6acc46cfc73a88feb28ae386e0aeaa))
 
 
 
@@ -764,7 +764,7 @@
 * **demo**
   *  add command to deploy demo website + storybook ([e2f5c581](https://github.com/plouc/nivo/commit/e2f5c5817765a2e6b35dce070f89b84110ef7a28))
   *  remove unused deps ([eaff4d8b](https://github.com/plouc/nivo/commit/eaff4d8bf183dcd3c5f9251cab3723e17765f42c))
-* **generators**  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
 * **lerna**  exclude demo & examples from lerna ([aa255ebf](https://github.com/plouc/nivo/commit/aa255ebf94cfbdf7d997ad48e6edbaaaf54657f3))
 * **packages**  add command to deploy all packages ([7467315c](https://github.com/plouc/nivo/commit/7467315c5e191d0876e0938ae9c6b8b95846d118))
 * **split**  init multi packages ([158a349d](https://github.com/plouc/nivo/commit/158a349d2ba8e9e017486e32fc89baa4e5c0c0a3))
@@ -1282,7 +1282,7 @@
   *  ensure examples build successfully on CI ([2ad46b7a](https://github.com/plouc/nivo/commit/2ad46b7af65fdcb7a3bb63d76327e3742e846776))
   * fix retro example dependencies ([2c84d014](https://github.com/plouc/nivo/commit/2c84d014c0ad88d1574f8ec5552cd837316a4371))
 * **generators**
-  *  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+  *  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
   *  update nivo-generators ([ada44cf7](https://github.com/plouc/nivo/commit/ada44cf79cc7edcdf35a8a97aef8d1d92b1564b9))
 * **heatmap**
   *  use @x-nivo/axes package for axes ([36cd9c7b](https://github.com/plouc/nivo/commit/36cd9c7b265f708b4a0a64a0244b2748d6ee58e4))
@@ -2135,7 +2135,7 @@
 * **examples**
   *  ensure examples build successfully on CI ([2ad46b7a](https://github.com/plouc/nivo/commit/2ad46b7af65fdcb7a3bb63d76327e3742e846776))
   * fix retro example dependencies ([2c84d014](https://github.com/plouc/nivo/commit/2c84d014c0ad88d1574f8ec5552cd837316a4371))
-* **generators**  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
 * **legends**  init legends package ([4063428b](https://github.com/plouc/nivo/commit/4063428baa626dd2e0810b830ca4cf6e5cde3b5a))
 * **lerna**  exclude demo & examples from lerna ([aa255ebf](https://github.com/plouc/nivo/commit/aa255ebf94cfbdf7d997ad48e6edbaaaf54657f3))
 * **line**  add support for legends on Line component ([b7cc2449](https://github.com/plouc/nivo/commit/b7cc2449dc068e53e1449e7c04f09af7ebe8c624))
@@ -2226,7 +2226,7 @@
 
 #### Features
 
-* **generators**  use @nivo/generators instead of nivo-generators ([a055d0e5](https://github.com/plouc/nivo/commit/a055d0e56d6acc46cfc73a88feb28ae386e0aeaa))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([a055d0e5](https://github.com/plouc/nivo/commit/a055d0e56d6acc46cfc73a88feb28ae386e0aeaa))
 
 
 
@@ -2297,7 +2297,7 @@
 * **demo**
   *  add command to deploy demo website + storybook ([e2f5c581](https://github.com/plouc/nivo/commit/e2f5c5817765a2e6b35dce070f89b84110ef7a28))
   *  remove unused deps ([eaff4d8b](https://github.com/plouc/nivo/commit/eaff4d8bf183dcd3c5f9251cab3723e17765f42c))
-* **generators**  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
 * **lerna**  exclude demo & examples from lerna ([aa255ebf](https://github.com/plouc/nivo/commit/aa255ebf94cfbdf7d997ad48e6edbaaaf54657f3))
 * **packages**  add command to deploy all packages ([7467315c](https://github.com/plouc/nivo/commit/7467315c5e191d0876e0938ae9c6b8b95846d118))
 * **split**  init multi packages ([158a349d](https://github.com/plouc/nivo/commit/158a349d2ba8e9e017486e32fc89baa4e5c0c0a3))
@@ -2804,7 +2804,7 @@
   *  ensure examples build successfully on CI ([2ad46b7a](https://github.com/plouc/nivo/commit/2ad46b7af65fdcb7a3bb63d76327e3742e846776))
   * fix retro example dependencies ([2c84d014](https://github.com/plouc/nivo/commit/2c84d014c0ad88d1574f8ec5552cd837316a4371))
 * **generators**
-  *  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+  *  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
   *  update nivo-generators ([ada44cf7](https://github.com/plouc/nivo/commit/ada44cf79cc7edcdf35a8a97aef8d1d92b1564b9))
 * **heatmap**
   *  include TypeScript definition in package ([868620eb](https://github.com/plouc/nivo/commit/868620eb2642aff5abbdac2dabb826a6b0f199dc))
@@ -3617,7 +3617,7 @@
 * **examples**
   *  ensure examples build successfully on CI ([2ad46b7a](https://github.com/plouc/nivo/commit/2ad46b7af65fdcb7a3bb63d76327e3742e846776))
   * fix retro example dependencies ([2c84d014](https://github.com/plouc/nivo/commit/2c84d014c0ad88d1574f8ec5552cd837316a4371))
-* **generators**  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
 * **legends**  init legends package ([4063428b](https://github.com/plouc/nivo/commit/4063428baa626dd2e0810b830ca4cf6e5cde3b5a))
 * **lerna**  exclude demo & examples from lerna ([aa255ebf](https://github.com/plouc/nivo/commit/aa255ebf94cfbdf7d997ad48e6edbaaaf54657f3))
 * **line**  add support for legends on Line component ([b7cc2449](https://github.com/plouc/nivo/commit/b7cc2449dc068e53e1449e7c04f09af7ebe8c624))
@@ -3708,7 +3708,7 @@
 
 #### Features
 
-* **generators**  use @nivo/generators instead of nivo-generators ([a055d0e5](https://github.com/plouc/nivo/commit/a055d0e56d6acc46cfc73a88feb28ae386e0aeaa))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([a055d0e5](https://github.com/plouc/nivo/commit/a055d0e56d6acc46cfc73a88feb28ae386e0aeaa))
 
 
 
@@ -3779,7 +3779,7 @@
 * **demo**
   *  add command to deploy demo website + storybook ([e2f5c581](https://github.com/plouc/nivo/commit/e2f5c5817765a2e6b35dce070f89b84110ef7a28))
   *  remove unused deps ([eaff4d8b](https://github.com/plouc/nivo/commit/eaff4d8bf183dcd3c5f9251cab3723e17765f42c))
-* **generators**  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
 * **lerna**  exclude demo & examples from lerna ([aa255ebf](https://github.com/plouc/nivo/commit/aa255ebf94cfbdf7d997ad48e6edbaaaf54657f3))
 * **packages**  add command to deploy all packages ([7467315c](https://github.com/plouc/nivo/commit/7467315c5e191d0876e0938ae9c6b8b95846d118))
 * **split**  init multi packages ([158a349d](https://github.com/plouc/nivo/commit/158a349d2ba8e9e017486e32fc89baa4e5c0c0a3))
@@ -4283,7 +4283,7 @@
   *  ensure examples build successfully on CI ([2ad46b7a](https://github.com/plouc/nivo/commit/2ad46b7af65fdcb7a3bb63d76327e3742e846776))
   * fix retro example dependencies ([2c84d014](https://github.com/plouc/nivo/commit/2c84d014c0ad88d1574f8ec5552cd837316a4371))
 * **generators**
-  *  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+  *  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
   *  update nivo-generators ([ada44cf7](https://github.com/plouc/nivo/commit/ada44cf79cc7edcdf35a8a97aef8d1d92b1564b9))
 * **heatmap**
   *  include TypeScript definition in package ([868620eb](https://github.com/plouc/nivo/commit/868620eb2642aff5abbdac2dabb826a6b0f199dc))
@@ -5065,7 +5065,7 @@
 * **examples**
   *  ensure examples build successfully on CI ([2ad46b7a](https://github.com/plouc/nivo/commit/2ad46b7af65fdcb7a3bb63d76327e3742e846776))
   * fix retro example dependencies ([2c84d014](https://github.com/plouc/nivo/commit/2c84d014c0ad88d1574f8ec5552cd837316a4371))
-* **generators**  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
 * **legends**  init legends package ([4063428b](https://github.com/plouc/nivo/commit/4063428baa626dd2e0810b830ca4cf6e5cde3b5a))
 * **lerna**  exclude demo & examples from lerna ([aa255ebf](https://github.com/plouc/nivo/commit/aa255ebf94cfbdf7d997ad48e6edbaaaf54657f3))
 * **line**  add support for legends on Line component ([b7cc2449](https://github.com/plouc/nivo/commit/b7cc2449dc068e53e1449e7c04f09af7ebe8c624))
@@ -5166,7 +5166,7 @@
 
 #### Features
 
-* **generators**  use @nivo/generators instead of nivo-generators ([a055d0e5](https://github.com/plouc/nivo/commit/a055d0e56d6acc46cfc73a88feb28ae386e0aeaa))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([a055d0e5](https://github.com/plouc/nivo/commit/a055d0e56d6acc46cfc73a88feb28ae386e0aeaa))
 
 
 
@@ -5229,7 +5229,7 @@
 * **demo**
   *  add command to deploy demo website + storybook ([e2f5c581](https://github.com/plouc/nivo/commit/e2f5c5817765a2e6b35dce070f89b84110ef7a28))
   *  remove unused deps ([eaff4d8b](https://github.com/plouc/nivo/commit/eaff4d8bf183dcd3c5f9251cab3723e17765f42c))
-* **generators**  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
 * **lerna**  exclude demo & examples from lerna ([aa255ebf](https://github.com/plouc/nivo/commit/aa255ebf94cfbdf7d997ad48e6edbaaaf54657f3))
 * **packages**  add command to deploy all packages ([7467315c](https://github.com/plouc/nivo/commit/7467315c5e191d0876e0938ae9c6b8b95846d118))
 * **split**  init multi packages ([158a349d](https://github.com/plouc/nivo/commit/158a349d2ba8e9e017486e32fc89baa4e5c0c0a3))
@@ -5741,7 +5741,7 @@
   *  ensure examples build successfully on CI ([2ad46b7a](https://github.com/plouc/nivo/commit/2ad46b7af65fdcb7a3bb63d76327e3742e846776))
   * fix retro example dependencies ([2c84d014](https://github.com/plouc/nivo/commit/2c84d014c0ad88d1574f8ec5552cd837316a4371))
 * **generators**
-  *  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+  *  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
   *  update nivo-generators ([ada44cf7](https://github.com/plouc/nivo/commit/ada44cf79cc7edcdf35a8a97aef8d1d92b1564b9))
 * **heatmap**
   *  include TypeScript definition in package ([868620eb](https://github.com/plouc/nivo/commit/868620eb2642aff5abbdac2dabb826a6b0f199dc))
@@ -6503,7 +6503,7 @@
 * **examples**
   *  ensure examples build successfully on CI ([2ad46b7a](https://github.com/plouc/nivo/commit/2ad46b7af65fdcb7a3bb63d76327e3742e846776))
   * fix retro example dependencies ([2c84d014](https://github.com/plouc/nivo/commit/2c84d014c0ad88d1574f8ec5552cd837316a4371))
-* **generators**  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
 * **legends**  init legends package ([4063428b](https://github.com/plouc/nivo/commit/4063428baa626dd2e0810b830ca4cf6e5cde3b5a))
 * **lerna**  exclude demo & examples from lerna ([aa255ebf](https://github.com/plouc/nivo/commit/aa255ebf94cfbdf7d997ad48e6edbaaaf54657f3))
 * **line**  add support for legends on Line component ([b7cc2449](https://github.com/plouc/nivo/commit/b7cc2449dc068e53e1449e7c04f09af7ebe8c624))
@@ -6604,7 +6604,7 @@
 
 #### Features
 
-* **generators**  use @nivo/generators instead of nivo-generators ([a055d0e5](https://github.com/plouc/nivo/commit/a055d0e56d6acc46cfc73a88feb28ae386e0aeaa))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([a055d0e5](https://github.com/plouc/nivo/commit/a055d0e56d6acc46cfc73a88feb28ae386e0aeaa))
 
 
 
@@ -6667,7 +6667,7 @@
 * **demo**
   *  add command to deploy demo website + storybook ([e2f5c581](https://github.com/plouc/nivo/commit/e2f5c5817765a2e6b35dce070f89b84110ef7a28))
   *  remove unused deps ([eaff4d8b](https://github.com/plouc/nivo/commit/eaff4d8bf183dcd3c5f9251cab3723e17765f42c))
-* **generators**  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
 * **lerna**  exclude demo & examples from lerna ([aa255ebf](https://github.com/plouc/nivo/commit/aa255ebf94cfbdf7d997ad48e6edbaaaf54657f3))
 * **packages**  add command to deploy all packages ([7467315c](https://github.com/plouc/nivo/commit/7467315c5e191d0876e0938ae9c6b8b95846d118))
 * **split**  init multi packages ([158a349d](https://github.com/plouc/nivo/commit/158a349d2ba8e9e017486e32fc89baa4e5c0c0a3))
@@ -7234,7 +7234,7 @@
   *  ensure examples build successfully on CI ([2ad46b7a](https://github.com/plouc/nivo/commit/2ad46b7af65fdcb7a3bb63d76327e3742e846776))
   * fix retro example dependencies ([2c84d014](https://github.com/plouc/nivo/commit/2c84d014c0ad88d1574f8ec5552cd837316a4371))
 * **generators**
-  *  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+  *  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
   *  update nivo-generators ([ada44cf7](https://github.com/plouc/nivo/commit/ada44cf79cc7edcdf35a8a97aef8d1d92b1564b9))
 * **heatmap**
   *  include TypeScript definition in package ([868620eb](https://github.com/plouc/nivo/commit/868620eb2642aff5abbdac2dabb826a6b0f199dc))
@@ -7924,7 +7924,7 @@
 * **examples**
   *  ensure examples build successfully on CI ([2ad46b7a](https://github.com/plouc/nivo/commit/2ad46b7af65fdcb7a3bb63d76327e3742e846776))
   * fix retro example dependencies ([2c84d014](https://github.com/plouc/nivo/commit/2c84d014c0ad88d1574f8ec5552cd837316a4371))
-* **generators**  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
 * **legends**  init legends package ([4063428b](https://github.com/plouc/nivo/commit/4063428baa626dd2e0810b830ca4cf6e5cde3b5a))
 * **lerna**  exclude demo & examples from lerna ([aa255ebf](https://github.com/plouc/nivo/commit/aa255ebf94cfbdf7d997ad48e6edbaaaf54657f3))
 * **line**  add support for legends on Line component ([b7cc2449](https://github.com/plouc/nivo/commit/b7cc2449dc068e53e1449e7c04f09af7ebe8c624))
@@ -8025,7 +8025,7 @@
 
 #### Features
 
-* **generators**  use @nivo/generators instead of nivo-generators ([a055d0e5](https://github.com/plouc/nivo/commit/a055d0e56d6acc46cfc73a88feb28ae386e0aeaa))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([a055d0e5](https://github.com/plouc/nivo/commit/a055d0e56d6acc46cfc73a88feb28ae386e0aeaa))
 
 
 
@@ -8096,7 +8096,7 @@
 * **demo**
   *  add command to deploy demo website + storybook ([e2f5c581](https://github.com/plouc/nivo/commit/e2f5c5817765a2e6b35dce070f89b84110ef7a28))
   *  remove unused deps ([eaff4d8b](https://github.com/plouc/nivo/commit/eaff4d8bf183dcd3c5f9251cab3723e17765f42c))
-* **generators**  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
 * **lerna**  exclude demo & examples from lerna ([aa255ebf](https://github.com/plouc/nivo/commit/aa255ebf94cfbdf7d997ad48e6edbaaaf54657f3))
 * **packages**  add command to deploy all packages ([7467315c](https://github.com/plouc/nivo/commit/7467315c5e191d0876e0938ae9c6b8b95846d118))
 * **split**  init multi packages ([158a349d](https://github.com/plouc/nivo/commit/158a349d2ba8e9e017486e32fc89baa4e5c0c0a3))
@@ -8596,7 +8596,7 @@
   *  ensure examples build successfully on CI ([2ad46b7a](https://github.com/plouc/nivo/commit/2ad46b7af65fdcb7a3bb63d76327e3742e846776))
   * fix retro example dependencies ([2c84d014](https://github.com/plouc/nivo/commit/2c84d014c0ad88d1574f8ec5552cd837316a4371))
 * **generators**
-  *  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+  *  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
   *  update nivo-generators ([ada44cf7](https://github.com/plouc/nivo/commit/ada44cf79cc7edcdf35a8a97aef8d1d92b1564b9))
 * **heatmap**
   *  include TypeScript definition in package ([868620eb](https://github.com/plouc/nivo/commit/868620eb2642aff5abbdac2dabb826a6b0f199dc))
@@ -9337,7 +9337,7 @@
 * **examples**
   *  ensure examples build successfully on CI ([2ad46b7a](https://github.com/plouc/nivo/commit/2ad46b7af65fdcb7a3bb63d76327e3742e846776))
   * fix retro example dependencies ([2c84d014](https://github.com/plouc/nivo/commit/2c84d014c0ad88d1574f8ec5552cd837316a4371))
-* **generators**  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
 * **legends**  init legends package ([4063428b](https://github.com/plouc/nivo/commit/4063428baa626dd2e0810b830ca4cf6e5cde3b5a))
 * **lerna**  exclude demo & examples from lerna ([aa255ebf](https://github.com/plouc/nivo/commit/aa255ebf94cfbdf7d997ad48e6edbaaaf54657f3))
 * **line**  add support for legends on Line component ([b7cc2449](https://github.com/plouc/nivo/commit/b7cc2449dc068e53e1449e7c04f09af7ebe8c624))
@@ -9428,7 +9428,7 @@
 
 #### Features
 
-* **generators**  use @nivo/generators instead of nivo-generators ([a055d0e5](https://github.com/plouc/nivo/commit/a055d0e56d6acc46cfc73a88feb28ae386e0aeaa))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([a055d0e5](https://github.com/plouc/nivo/commit/a055d0e56d6acc46cfc73a88feb28ae386e0aeaa))
 
 
 
@@ -9499,7 +9499,7 @@
 * **demo**
   *  add command to deploy demo website + storybook ([e2f5c581](https://github.com/plouc/nivo/commit/e2f5c5817765a2e6b35dce070f89b84110ef7a28))
   *  remove unused deps ([eaff4d8b](https://github.com/plouc/nivo/commit/eaff4d8bf183dcd3c5f9251cab3723e17765f42c))
-* **generators**  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
 * **lerna**  exclude demo & examples from lerna ([aa255ebf](https://github.com/plouc/nivo/commit/aa255ebf94cfbdf7d997ad48e6edbaaaf54657f3))
 * **packages**  add command to deploy all packages ([7467315c](https://github.com/plouc/nivo/commit/7467315c5e191d0876e0938ae9c6b8b95846d118))
 * **split**  init multi packages ([158a349d](https://github.com/plouc/nivo/commit/158a349d2ba8e9e017486e32fc89baa4e5c0c0a3))
@@ -9998,7 +9998,7 @@
   *  ensure examples build successfully on CI ([2ad46b7a](https://github.com/plouc/nivo/commit/2ad46b7af65fdcb7a3bb63d76327e3742e846776))
   * fix retro example dependencies ([2c84d014](https://github.com/plouc/nivo/commit/2c84d014c0ad88d1574f8ec5552cd837316a4371))
 * **generators**
-  *  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+  *  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
   *  update nivo-generators ([ada44cf7](https://github.com/plouc/nivo/commit/ada44cf79cc7edcdf35a8a97aef8d1d92b1564b9))
 * **heatmap**
   *  include TypeScript definition in package ([868620eb](https://github.com/plouc/nivo/commit/868620eb2642aff5abbdac2dabb826a6b0f199dc))
@@ -10701,7 +10701,7 @@
 * **examples**
   *  ensure examples build successfully on CI ([2ad46b7a](https://github.com/plouc/nivo/commit/2ad46b7af65fdcb7a3bb63d76327e3742e846776))
   * fix retro example dependencies ([2c84d014](https://github.com/plouc/nivo/commit/2c84d014c0ad88d1574f8ec5552cd837316a4371))
-* **generators**  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
 * **legends**  init legends package ([4063428b](https://github.com/plouc/nivo/commit/4063428baa626dd2e0810b830ca4cf6e5cde3b5a))
 * **lerna**  exclude demo & examples from lerna ([aa255ebf](https://github.com/plouc/nivo/commit/aa255ebf94cfbdf7d997ad48e6edbaaaf54657f3))
 * **line**  add support for legends on Line component ([b7cc2449](https://github.com/plouc/nivo/commit/b7cc2449dc068e53e1449e7c04f09af7ebe8c624))
@@ -10802,7 +10802,7 @@
 
 #### Features
 
-* **generators**  use @nivo/generators instead of nivo-generators ([a055d0e5](https://github.com/plouc/nivo/commit/a055d0e56d6acc46cfc73a88feb28ae386e0aeaa))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([a055d0e5](https://github.com/plouc/nivo/commit/a055d0e56d6acc46cfc73a88feb28ae386e0aeaa))
 
 
 
@@ -10873,7 +10873,7 @@
 * **demo**
   *  add command to deploy demo website + storybook ([e2f5c581](https://github.com/plouc/nivo/commit/e2f5c5817765a2e6b35dce070f89b84110ef7a28))
   *  remove unused deps ([eaff4d8b](https://github.com/plouc/nivo/commit/eaff4d8bf183dcd3c5f9251cab3723e17765f42c))
-* **generators**  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
 * **lerna**  exclude demo & examples from lerna ([aa255ebf](https://github.com/plouc/nivo/commit/aa255ebf94cfbdf7d997ad48e6edbaaaf54657f3))
 * **packages**  add command to deploy all packages ([7467315c](https://github.com/plouc/nivo/commit/7467315c5e191d0876e0938ae9c6b8b95846d118))
 * **split**  init multi packages ([158a349d](https://github.com/plouc/nivo/commit/158a349d2ba8e9e017486e32fc89baa4e5c0c0a3))
@@ -11371,7 +11371,7 @@
   *  ensure examples build successfully on CI ([2ad46b7a](https://github.com/plouc/nivo/commit/2ad46b7af65fdcb7a3bb63d76327e3742e846776))
   * fix retro example dependencies ([2c84d014](https://github.com/plouc/nivo/commit/2c84d014c0ad88d1574f8ec5552cd837316a4371))
 * **generators**
-  *  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+  *  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
   *  update nivo-generators ([ada44cf7](https://github.com/plouc/nivo/commit/ada44cf79cc7edcdf35a8a97aef8d1d92b1564b9))
 * **heatmap**
   *  include TypeScript definition in package ([868620eb](https://github.com/plouc/nivo/commit/868620eb2642aff5abbdac2dabb826a6b0f199dc))
@@ -12056,7 +12056,7 @@
 * **examples**
   *  ensure examples build successfully on CI ([2ad46b7a](https://github.com/plouc/nivo/commit/2ad46b7af65fdcb7a3bb63d76327e3742e846776))
   * fix retro example dependencies ([2c84d014](https://github.com/plouc/nivo/commit/2c84d014c0ad88d1574f8ec5552cd837316a4371))
-* **generators**  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
 * **legends**  init legends package ([4063428b](https://github.com/plouc/nivo/commit/4063428baa626dd2e0810b830ca4cf6e5cde3b5a))
 * **lerna**  exclude demo & examples from lerna ([aa255ebf](https://github.com/plouc/nivo/commit/aa255ebf94cfbdf7d997ad48e6edbaaaf54657f3))
 * **line**  add support for legends on Line component ([b7cc2449](https://github.com/plouc/nivo/commit/b7cc2449dc068e53e1449e7c04f09af7ebe8c624))
@@ -12147,7 +12147,7 @@
 
 #### Features
 
-* **generators**  use @nivo/generators instead of nivo-generators ([a055d0e5](https://github.com/plouc/nivo/commit/a055d0e56d6acc46cfc73a88feb28ae386e0aeaa))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([a055d0e5](https://github.com/plouc/nivo/commit/a055d0e56d6acc46cfc73a88feb28ae386e0aeaa))
 
 
 
@@ -12218,7 +12218,7 @@
 * **demo**
   *  add command to deploy demo website + storybook ([e2f5c581](https://github.com/plouc/nivo/commit/e2f5c5817765a2e6b35dce070f89b84110ef7a28))
   *  remove unused deps ([eaff4d8b](https://github.com/plouc/nivo/commit/eaff4d8bf183dcd3c5f9251cab3723e17765f42c))
-* **generators**  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
 * **lerna**  exclude demo & examples from lerna ([aa255ebf](https://github.com/plouc/nivo/commit/aa255ebf94cfbdf7d997ad48e6edbaaaf54657f3))
 * **packages**  add command to deploy all packages ([7467315c](https://github.com/plouc/nivo/commit/7467315c5e191d0876e0938ae9c6b8b95846d118))
 * **split**  init multi packages ([158a349d](https://github.com/plouc/nivo/commit/158a349d2ba8e9e017486e32fc89baa4e5c0c0a3))
@@ -12716,7 +12716,7 @@
   *  ensure examples build successfully on CI ([2ad46b7a](https://github.com/plouc/nivo/commit/2ad46b7af65fdcb7a3bb63d76327e3742e846776))
   * fix retro example dependencies ([2c84d014](https://github.com/plouc/nivo/commit/2c84d014c0ad88d1574f8ec5552cd837316a4371))
 * **generators**
-  *  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+  *  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
   *  update nivo-generators ([ada44cf7](https://github.com/plouc/nivo/commit/ada44cf79cc7edcdf35a8a97aef8d1d92b1564b9))
 * **heatmap**
   *  include TypeScript definition in package ([868620eb](https://github.com/plouc/nivo/commit/868620eb2642aff5abbdac2dabb826a6b0f199dc))
@@ -13357,7 +13357,7 @@
 * **examples**
   *  ensure examples build successfully on CI ([2ad46b7a](https://github.com/plouc/nivo/commit/2ad46b7af65fdcb7a3bb63d76327e3742e846776))
   * fix retro example dependencies ([2c84d014](https://github.com/plouc/nivo/commit/2c84d014c0ad88d1574f8ec5552cd837316a4371))
-* **generators**  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
 * **legends**  init legends package ([4063428b](https://github.com/plouc/nivo/commit/4063428baa626dd2e0810b830ca4cf6e5cde3b5a))
 * **lerna**  exclude demo & examples from lerna ([aa255ebf](https://github.com/plouc/nivo/commit/aa255ebf94cfbdf7d997ad48e6edbaaaf54657f3))
 * **line**  add support for legends on Line component ([b7cc2449](https://github.com/plouc/nivo/commit/b7cc2449dc068e53e1449e7c04f09af7ebe8c624))
@@ -13458,7 +13458,7 @@
 
 #### Features
 
-* **generators**  use @nivo/generators instead of nivo-generators ([a055d0e5](https://github.com/plouc/nivo/commit/a055d0e56d6acc46cfc73a88feb28ae386e0aeaa))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([a055d0e5](https://github.com/plouc/nivo/commit/a055d0e56d6acc46cfc73a88feb28ae386e0aeaa))
 
 
 
@@ -13529,7 +13529,7 @@
 * **demo**
   *  add command to deploy demo website + storybook ([e2f5c581](https://github.com/plouc/nivo/commit/e2f5c5817765a2e6b35dce070f89b84110ef7a28))
   *  remove unused deps ([eaff4d8b](https://github.com/plouc/nivo/commit/eaff4d8bf183dcd3c5f9251cab3723e17765f42c))
-* **generators**  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
 * **lerna**  exclude demo & examples from lerna ([aa255ebf](https://github.com/plouc/nivo/commit/aa255ebf94cfbdf7d997ad48e6edbaaaf54657f3))
 * **packages**  add command to deploy all packages ([7467315c](https://github.com/plouc/nivo/commit/7467315c5e191d0876e0938ae9c6b8b95846d118))
 * **split**  init multi packages ([158a349d](https://github.com/plouc/nivo/commit/158a349d2ba8e9e017486e32fc89baa4e5c0c0a3))
@@ -14075,7 +14075,7 @@
   *  ensure examples build successfully on CI ([2ad46b7a](https://github.com/plouc/nivo/commit/2ad46b7af65fdcb7a3bb63d76327e3742e846776))
   * fix retro example dependencies ([2c84d014](https://github.com/plouc/nivo/commit/2c84d014c0ad88d1574f8ec5552cd837316a4371))
 * **generators**
-  *  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+  *  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
   *  update nivo-generators ([ada44cf7](https://github.com/plouc/nivo/commit/ada44cf79cc7edcdf35a8a97aef8d1d92b1564b9))
 * **heatmap**
   *  include TypeScript definition in package ([868620eb](https://github.com/plouc/nivo/commit/868620eb2642aff5abbdac2dabb826a6b0f199dc))
@@ -14599,7 +14599,7 @@
 * **examples**
   *  ensure examples build successfully on CI ([2ad46b7a](https://github.com/plouc/nivo/commit/2ad46b7af65fdcb7a3bb63d76327e3742e846776))
   * fix retro example dependencies ([2c84d014](https://github.com/plouc/nivo/commit/2c84d014c0ad88d1574f8ec5552cd837316a4371))
-* **generators**  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
 * **legends**  init legends package ([4063428b](https://github.com/plouc/nivo/commit/4063428baa626dd2e0810b830ca4cf6e5cde3b5a))
 * **lerna**  exclude demo & examples from lerna ([aa255ebf](https://github.com/plouc/nivo/commit/aa255ebf94cfbdf7d997ad48e6edbaaaf54657f3))
 * **line**  add support for legends on Line component ([b7cc2449](https://github.com/plouc/nivo/commit/b7cc2449dc068e53e1449e7c04f09af7ebe8c624))
@@ -14700,7 +14700,7 @@
 
 #### Features
 
-* **generators**  use @nivo/generators instead of nivo-generators ([a055d0e5](https://github.com/plouc/nivo/commit/a055d0e56d6acc46cfc73a88feb28ae386e0aeaa))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([a055d0e5](https://github.com/plouc/nivo/commit/a055d0e56d6acc46cfc73a88feb28ae386e0aeaa))
 
 
 
@@ -14771,7 +14771,7 @@
 * **demo**
   *  add command to deploy demo website + storybook ([e2f5c581](https://github.com/plouc/nivo/commit/e2f5c5817765a2e6b35dce070f89b84110ef7a28))
   *  remove unused deps ([eaff4d8b](https://github.com/plouc/nivo/commit/eaff4d8bf183dcd3c5f9251cab3723e17765f42c))
-* **generators**  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
 * **lerna**  exclude demo & examples from lerna ([aa255ebf](https://github.com/plouc/nivo/commit/aa255ebf94cfbdf7d997ad48e6edbaaaf54657f3))
 * **packages**  add command to deploy all packages ([7467315c](https://github.com/plouc/nivo/commit/7467315c5e191d0876e0938ae9c6b8b95846d118))
 * **split**  init multi packages ([158a349d](https://github.com/plouc/nivo/commit/158a349d2ba8e9e017486e32fc89baa4e5c0c0a3))
@@ -15257,7 +15257,7 @@
   *  ensure examples build successfully on CI ([2ad46b7a](https://github.com/plouc/nivo/commit/2ad46b7af65fdcb7a3bb63d76327e3742e846776))
   * fix retro example dependencies ([2c84d014](https://github.com/plouc/nivo/commit/2c84d014c0ad88d1574f8ec5552cd837316a4371))
 * **generators**
-  *  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+  *  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
   *  update nivo-generators ([ada44cf7](https://github.com/plouc/nivo/commit/ada44cf79cc7edcdf35a8a97aef8d1d92b1564b9))
 * **heatmap**
   *  include TypeScript definition in package ([868620eb](https://github.com/plouc/nivo/commit/868620eb2642aff5abbdac2dabb826a6b0f199dc))
@@ -15804,7 +15804,7 @@
 * **examples**
   *  ensure examples build successfully on CI ([2ad46b7a](https://github.com/plouc/nivo/commit/2ad46b7af65fdcb7a3bb63d76327e3742e846776))
   * fix retro example dependencies ([2c84d014](https://github.com/plouc/nivo/commit/2c84d014c0ad88d1574f8ec5552cd837316a4371))
-* **generators**  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
 * **legends**  init legends package ([4063428b](https://github.com/plouc/nivo/commit/4063428baa626dd2e0810b830ca4cf6e5cde3b5a))
 * **lerna**  exclude demo & examples from lerna ([aa255ebf](https://github.com/plouc/nivo/commit/aa255ebf94cfbdf7d997ad48e6edbaaaf54657f3))
 * **line**  add support for legends on Line component ([b7cc2449](https://github.com/plouc/nivo/commit/b7cc2449dc068e53e1449e7c04f09af7ebe8c624))
@@ -15895,7 +15895,7 @@
 
 #### Features
 
-* **generators**  use @nivo/generators instead of nivo-generators ([a055d0e5](https://github.com/plouc/nivo/commit/a055d0e56d6acc46cfc73a88feb28ae386e0aeaa))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([a055d0e5](https://github.com/plouc/nivo/commit/a055d0e56d6acc46cfc73a88feb28ae386e0aeaa))
 
 
 
@@ -15958,7 +15958,7 @@
 * **demo**
   *  add command to deploy demo website + storybook ([e2f5c581](https://github.com/plouc/nivo/commit/e2f5c5817765a2e6b35dce070f89b84110ef7a28))
   *  remove unused deps ([eaff4d8b](https://github.com/plouc/nivo/commit/eaff4d8bf183dcd3c5f9251cab3723e17765f42c))
-* **generators**  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
 * **lerna**  exclude demo & examples from lerna ([aa255ebf](https://github.com/plouc/nivo/commit/aa255ebf94cfbdf7d997ad48e6edbaaaf54657f3))
 * **packages**  add command to deploy all packages ([7467315c](https://github.com/plouc/nivo/commit/7467315c5e191d0876e0938ae9c6b8b95846d118))
 * **split**  init multi packages ([158a349d](https://github.com/plouc/nivo/commit/158a349d2ba8e9e017486e32fc89baa4e5c0c0a3))
@@ -16452,7 +16452,7 @@
   *  ensure examples build successfully on CI ([2ad46b7a](https://github.com/plouc/nivo/commit/2ad46b7af65fdcb7a3bb63d76327e3742e846776))
   * fix retro example dependencies ([2c84d014](https://github.com/plouc/nivo/commit/2c84d014c0ad88d1574f8ec5552cd837316a4371))
 * **generators**
-  *  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+  *  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
   *  update nivo-generators ([ada44cf7](https://github.com/plouc/nivo/commit/ada44cf79cc7edcdf35a8a97aef8d1d92b1564b9))
 * **heatmap**
   *  include TypeScript definition in package ([868620eb](https://github.com/plouc/nivo/commit/868620eb2642aff5abbdac2dabb826a6b0f199dc))
@@ -16951,7 +16951,7 @@
 * **examples**
   *  ensure examples build successfully on CI ([2ad46b7a](https://github.com/plouc/nivo/commit/2ad46b7af65fdcb7a3bb63d76327e3742e846776))
   * fix retro example dependencies ([2c84d014](https://github.com/plouc/nivo/commit/2c84d014c0ad88d1574f8ec5552cd837316a4371))
-* **generators**  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
 * **legends**  init legends package ([4063428b](https://github.com/plouc/nivo/commit/4063428baa626dd2e0810b830ca4cf6e5cde3b5a))
 * **lerna**  exclude demo & examples from lerna ([aa255ebf](https://github.com/plouc/nivo/commit/aa255ebf94cfbdf7d997ad48e6edbaaaf54657f3))
 * **line**  add support for legends on Line component ([b7cc2449](https://github.com/plouc/nivo/commit/b7cc2449dc068e53e1449e7c04f09af7ebe8c624))
@@ -17052,7 +17052,7 @@
 
 #### Features
 
-* **generators**  use @nivo/generators instead of nivo-generators ([a055d0e5](https://github.com/plouc/nivo/commit/a055d0e56d6acc46cfc73a88feb28ae386e0aeaa))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([a055d0e5](https://github.com/plouc/nivo/commit/a055d0e56d6acc46cfc73a88feb28ae386e0aeaa))
 
 
 
@@ -17115,7 +17115,7 @@
 * **demo**
   *  add command to deploy demo website + storybook ([e2f5c581](https://github.com/plouc/nivo/commit/e2f5c5817765a2e6b35dce070f89b84110ef7a28))
   *  remove unused deps ([eaff4d8b](https://github.com/plouc/nivo/commit/eaff4d8bf183dcd3c5f9251cab3723e17765f42c))
-* **generators**  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+* **generators**  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
 * **lerna**  exclude demo & examples from lerna ([aa255ebf](https://github.com/plouc/nivo/commit/aa255ebf94cfbdf7d997ad48e6edbaaaf54657f3))
 * **packages**  add command to deploy all packages ([7467315c](https://github.com/plouc/nivo/commit/7467315c5e191d0876e0938ae9c6b8b95846d118))
 * **split**  init multi packages ([158a349d](https://github.com/plouc/nivo/commit/158a349d2ba8e9e017486e32fc89baa4e5c0c0a3))
@@ -17608,7 +17608,7 @@
   *  ensure examples build successfully on CI ([2ad46b7a](https://github.com/plouc/nivo/commit/2ad46b7af65fdcb7a3bb63d76327e3742e846776))
   * fix retro example dependencies ([2c84d014](https://github.com/plouc/nivo/commit/2c84d014c0ad88d1574f8ec5552cd837316a4371))
 * **generators**
-  *  use @nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
+  *  use @x-nivo/generators instead of nivo-generators ([e65976d8](https://github.com/plouc/nivo/commit/e65976d83c714da8e16b92ca6b76ff15f47b42f4))
   *  update nivo-generators ([ada44cf7](https://github.com/plouc/nivo/commit/ada44cf79cc7edcdf35a8a97aef8d1d92b1564b9))
 * **heatmap**
   *  init TypeScript definitions (#198) ([6c5432db](https://github.com/plouc/nivo/commit/6c5432db7b1420bad94f6d7afe2931a67f6c7e0e))
@@ -17898,7 +17898,7 @@
   *  ensure examples build successfully on CI ((2ad46b7a))
   * fix retro example dependencies ((2c84d014))
 * **generators**
-  *  use @nivo/generators instead of nivo-generators ((e65976d8))
+  *  use @x-nivo/generators instead of nivo-generators ((e65976d8))
   *  update nivo-generators ((ada44cf7))
 * **heatmap**
   *  init TypeScript definitions (#198) ((6c5432db))

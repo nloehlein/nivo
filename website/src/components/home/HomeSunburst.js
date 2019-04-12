@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { generateLibTree } from '@nivo/generators'
+import { generateLibTree } from '@x-nivo/generators'
 import { ResponsiveSunburst } from '@x-nivo/sunburst'
 import { HomeItem, HomeItemLabel } from './styled'
 
