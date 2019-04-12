@@ -1,7 +1,7 @@
 {
   "name": "@x-nivo/legends",
   "description": "legend components for nivo dataviz library",
-  "version": "0.56.2",
+  "version": "0.56.4",
   "license": "MIT",
   "author": {
     "name": "Raphaël Benitte",
@@ -17,7 +17,7 @@
     "index.d.ts"
   ],
   "dependencies": {
-    "@x-nivo/core": "^0.56.2",
+    "@x-nivo/core": "^0.56.4",
     "lodash": "^4.17.4",
     "recompose": "^0.30.0"
   },

@@ -1,6 +1,6 @@
 {
   "name": "@x-nivo/scatterplot",
-  "version": "0.56.2",
+  "version": "0.56.4",
   "license": "MIT",
   "author": {
     "name": "Raphaël Benitte",
@@ -23,11 +23,11 @@
     "dist/"
   ],
   "dependencies": {
-    "@x-nivo/axes": "^0.56.2",
-    "@x-nivo/core": "^0.56.2",
-    "@x-nivo/legends": "^0.56.2",
-    "@x-nivo/scales": "^0.56.2",
-    "@x-nivo/voronoi": "^0.56.2",
+    "@x-nivo/axes": "^0.56.4",
+    "@x-nivo/core": "^0.56.4",
+    "@x-nivo/legends": "^0.56.4",
+    "@x-nivo/scales": "^0.56.4",
+    "@x-nivo/voronoi": "^0.56.4",
     "d3-scale": "^2.1.2",
     "d3-shape": "^1.3.5",
     "lodash": "^4.17.4",

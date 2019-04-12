@@ -1,6 +1,6 @@
 {
   "name": "@x-nivo/heatmap",
-  "version": "0.56.2",
+  "version": "0.56.4",
   "license": "MIT",
   "author": {
     "name": "Raphaël Benitte",
@@ -23,8 +23,8 @@
     "dist/"
   ],
   "dependencies": {
-    "@x-nivo/axes": "^0.56.2",
-    "@x-nivo/core": "^0.56.2",
+    "@x-nivo/axes": "^0.56.4",
+    "@x-nivo/core": "^0.56.4",
     "d3-scale": "^2.1.2",
     "lodash": "^4.17.4",
     "react-motion": "^0.5.2",
