@@ -9,8 +9,8 @@
 'use strict'
 
 const Joi = require('joi')
-const { Line } = require('@nivo/line')
-const { curvePropKeys } = require('@nivo/core')
+const { Line } = require('@x-nivo/line')
+const { curvePropKeys } = require('@x-nivo/core')
 const common = require('./common')
 
 module.exports = {

@@ -8,7 +8,7 @@
  */
 import React from 'react'
 import { generateLibTree } from '@nivo/generators'
-import { ResponsiveTreeMapCanvas } from '@nivo/treemap'
+import { ResponsiveTreeMapCanvas } from '@x-nivo/treemap'
 import { HomeItem, HomeItemLabel } from './styled'
 
 const HomeTreeMap = ({ colors, nivoTheme }) => {

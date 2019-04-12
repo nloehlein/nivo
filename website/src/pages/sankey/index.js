@@ -9,7 +9,7 @@
 import React from 'react'
 import omit from 'lodash/omit'
 import { generateSankeyData } from '@nivo/generators'
-import { ResponsiveSankey, SankeyDefaultProps } from '@nivo/sankey'
+import { ResponsiveSankey, SankeyDefaultProps } from '@x-nivo/sankey'
 import ComponentTemplate from '../../components/components/ComponentTemplate'
 import meta from '../../data/components/sankey/meta.yml'
 import mapper from '../../data/components/sankey/mapper'

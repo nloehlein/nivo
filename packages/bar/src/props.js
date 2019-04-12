@@ -7,9 +7,9 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { noop, defsPropTypes } from '@nivo/core'
-import { axisPropType } from '@nivo/axes'
-import { LegendPropShape } from '@nivo/legends'
+import { noop, defsPropTypes } from '@x-nivo/core'
+import { axisPropType } from '@x-nivo/axes'
+import { LegendPropShape } from '@x-nivo/legends'
 import BarItem from './BarItem'
 
 export const BarPropTypes = {

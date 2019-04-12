@@ -9,7 +9,7 @@
 import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
 import { compose, withPropsOnChange, withHandlers, pure } from 'recompose'
-import { BasicTooltip, Chip, blendModePropType } from '@nivo/core'
+import { BasicTooltip, Chip, blendModePropType } from '@x-nivo/core'
 import SankeyLinkGradient from './SankeyLinkGradient'
 
 const tooltipStyles = {

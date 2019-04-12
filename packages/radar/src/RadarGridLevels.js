@@ -11,7 +11,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import pure from 'recompose/pure'
 import { TransitionMotion, spring } from 'react-motion'
-import { motionPropTypes } from '@nivo/core'
+import { motionPropTypes } from '@x-nivo/core'
 import { lineRadial, curveLinearClosed } from 'd3-shape'
 
 const levelWillEnter = () => ({ r: 0 })

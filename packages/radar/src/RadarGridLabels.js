@@ -10,8 +10,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { TransitionMotion, spring } from 'react-motion'
 import pure from 'recompose/pure'
-import { motionPropTypes } from '@nivo/core'
-import { positionFromAngle, radiansToDegrees } from '@nivo/core'
+import { motionPropTypes } from '@x-nivo/core'
+import { positionFromAngle, radiansToDegrees } from '@x-nivo/core'
 
 const textAnchorFromAngle = _angle => {
     const angle = radiansToDegrees(_angle) + 90

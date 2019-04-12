@@ -11,7 +11,7 @@ import PropTypes from 'prop-types'
 import compose from 'recompose/compose'
 import defaultProps from 'recompose/defaultProps'
 import withPropsOnChange from 'recompose/withPropsOnChange'
-import { getRelativeCursor } from '@nivo/core'
+import { getRelativeCursor } from '@x-nivo/core'
 import { computeMeshPoints, computeMesh } from './computeMesh'
 
 class Mesh extends Component {

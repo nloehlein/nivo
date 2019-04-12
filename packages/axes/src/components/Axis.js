@@ -13,7 +13,7 @@ import withPropsOnChange from 'recompose/withPropsOnChange'
 import pure from 'recompose/pure'
 import setDisplayName from 'recompose/setDisplayName'
 import { Motion, TransitionMotion, spring } from 'react-motion'
-import { withMotion, motionPropTypes, axisThemePropType } from '@nivo/core'
+import { withMotion, motionPropTypes, axisThemePropType } from '@x-nivo/core'
 import { computeCartesianTicks, getFormatter } from '../compute'
 import AxisTick from './AxisTick'
 

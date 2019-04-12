@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { ResponsivePie, PieDefaultProps } from '@nivo/pie'
+import { ResponsivePie, PieDefaultProps } from '@x-nivo/pie'
 import { generateProgrammingLanguageStats } from '@nivo/generators'
 import ComponentTemplate from '../../components/components/ComponentTemplate'
 import meta from '../../data/components/pie/meta.yml'

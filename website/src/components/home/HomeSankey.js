@@ -8,7 +8,7 @@
  */
 import React from 'react'
 import { generateSankeyData } from '@nivo/generators'
-import { ResponsiveSankey } from '@nivo/sankey'
+import { ResponsiveSankey } from '@x-nivo/sankey'
 import { HomeItem, HomeItemLabel } from './styled'
 
 const HomeSankey = ({ colors, nivoTheme }) => {

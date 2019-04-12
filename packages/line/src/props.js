@@ -7,10 +7,10 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { lineCurvePropType, blendModePropType } from '@nivo/core'
-import { axisPropType } from '@nivo/axes'
-import { scalePropType } from '@nivo/scales'
-import { LegendPropShape } from '@nivo/legends'
+import { lineCurvePropType, blendModePropType } from '@x-nivo/core'
+import { axisPropType } from '@x-nivo/axes'
+import { scalePropType } from '@x-nivo/scales'
+import { LegendPropShape } from '@x-nivo/legends'
 
 export const LinePropTypes = {
     data: PropTypes.arrayOf(

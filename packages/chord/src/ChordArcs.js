@@ -10,9 +10,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { TransitionMotion, spring } from 'react-motion'
 import pure from 'recompose/pure'
-import { colorMotionSpring, getInterpolatedColor } from '@nivo/core'
+import { colorMotionSpring, getInterpolatedColor } from '@x-nivo/core'
 import ChordArcTooltip from './ChordArcTooltip'
-import { motionPropTypes } from '@nivo/core'
+import { motionPropTypes } from '@x-nivo/core'
 
 const ChordArcs = ({
     arcs,

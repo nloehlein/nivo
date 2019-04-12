@@ -3,7 +3,7 @@ flavors:
     path: /stream
 
 Stream:
-  package: '@nivo/stream'
+  package: '@x-nivo/stream'
   tags:
     - stacked
     - svg

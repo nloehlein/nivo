@@ -5,7 +5,7 @@ flavors:
     path: /geomap/canvas
 
 GeoMap:
-  package: '@nivo/geo'
+  package: '@x-nivo/geo'
   tags:
     - map
     - svg
@@ -27,7 +27,7 @@ GeoMap:
     [GeoMapCanvas](self:/geomap/canvas).
 
 GeoMapCanvas:
-  package: '@nivo/geo'
+  package: '@x-nivo/geo'
   tags:
     - map
     - canvas

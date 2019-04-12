@@ -23,10 +23,10 @@ import {
     SvgWrapper,
     CartesianMarkers,
     Grid,
-} from '@nivo/core'
-import { Axes } from '@nivo/axes'
-import { computeXYScalesForSeries, computeYSlices } from '@nivo/scales'
-import { BoxLegendSvg } from '@nivo/legends'
+} from '@x-nivo/core'
+import { Axes } from '@x-nivo/axes'
+import { computeXYScalesForSeries, computeYSlices } from '@x-nivo/scales'
+import { BoxLegendSvg } from '@x-nivo/legends'
 import LineAreas from './LineAreas'
 import LineLines from './LineLines'
 import LineSlices from './LineSlices'

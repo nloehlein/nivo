@@ -8,7 +8,7 @@
  */
 import React from 'react'
 import { generateChordData } from '@nivo/generators'
-import { ResponsiveChordCanvas } from '@nivo/chord'
+import { ResponsiveChordCanvas } from '@x-nivo/chord'
 import { HomeItem, HomeItemLabel } from './styled'
 
 const HomeChord = ({ colors }) => {

@@ -878,7 +878,7 @@
 
 "@x-nivo/axes@0.55.0":
   version "0.55.1"
-  resolved "https://registry.yarnpkg.com/@nivo/axes/-/axes-0.55.0.tgz#0f886505462d078bbdfd5569747c646c32990886"
+  resolved "https://registry.yarnpkg.com/@x-nivo/axes/-/axes-0.55.0.tgz#0f886505462d078bbdfd5569747c646c32990886"
   integrity sha512-LAWgcLIcsyhBEBfXVc7Z7v0u5uLW89eicjWxeWcIxYup6sSGm6Dnhhdv4i4BDzt1K0WlQ6Rbm9Aj7lR6O7o9Zw==
   dependencies:
     "@x-nivo/core" "0.55.1"
@@ -890,7 +890,7 @@
 
 "@x-nivo/bar@0.55.0":
   version "0.55.1"
-  resolved "https://registry.yarnpkg.com/@nivo/bar/-/bar-0.55.0.tgz#8f9d9e1a4bed391b5dc0972ff5bbf30a26092404"
+  resolved "https://registry.yarnpkg.com/@x-nivo/bar/-/bar-0.55.0.tgz#8f9d9e1a4bed391b5dc0972ff5bbf30a26092404"
   integrity sha512-RqJjyGKUP6vMS57iJ1p81jzAVM4Ex/2vuFnDGrPz7xAeA3NDM24S/vN4Hch41bx+rt7qRgED2pWriUo/7Xqz5w==
   dependencies:
     "@x-nivo/axes" "0.55.1"
@@ -904,7 +904,7 @@
 
 "@x-nivo/chord@0.55.0":
   version "0.55.1"
-  resolved "https://registry.yarnpkg.com/@nivo/chord/-/chord-0.55.0.tgz#8208d06998bcafb344ad8de227ae1420eb2ad5c0"
+  resolved "https://registry.yarnpkg.com/@x-nivo/chord/-/chord-0.55.0.tgz#8208d06998bcafb344ad8de227ae1420eb2ad5c0"
   integrity sha512-1FOWsdC1g3b/bLcKpXab6b8D3tmDAcnAEmMyGLZ45uAvohsLpNKDqKquFh9MV//OaXOaJuxu64z370LV0cH4hg==
   dependencies:
     "@x-nivo/core" "0.55.1"
@@ -918,7 +918,7 @@
 
 "@x-nivo/circle-packing@0.55.0":
   version "0.55.1"
-  resolved "https://registry.yarnpkg.com/@nivo/circle-packing/-/circle-packing-0.55.0.tgz#8973fa6add8a8acf11832ff571aff4b75cbb6702"
+  resolved "https://registry.yarnpkg.com/@x-nivo/circle-packing/-/circle-packing-0.55.0.tgz#8973fa6add8a8acf11832ff571aff4b75cbb6702"
   integrity sha512-qlQuf0wUN1oMV1K0fhJzT2yEmPRJhoJJGlr+LM+yptvNo7wLNIHIstJoPO96lNpRtwzsH4wjXS5dLfe0y4KTcw==
   dependencies:
     "@x-nivo/core" "0.55.1"
@@ -929,7 +929,7 @@
 
 "@x-nivo/core@0.55.0":
   version "0.55.1"
-  resolved "https://registry.yarnpkg.com/@nivo/core/-/core-0.55.0.tgz#913fa301768f5fa929dbe17a5cbd2978adef6051"
+  resolved "https://registry.yarnpkg.com/@x-nivo/core/-/core-0.55.0.tgz#913fa301768f5fa929dbe17a5cbd2978adef6051"
   integrity sha512-3RzlMJqBhGnWvLmhyG9U63JlsxnrrlT2NFAMXo2PzpByzd21EZ9V1iPu7bhLPNm3otuMqmg9vR3dSAvzOZptqQ==
   dependencies:
     d3-color "^1.0.3"
@@ -945,7 +945,7 @@
     react-motion "^0.5.2"
     recompose "^0.30.0"
 
-"@x-nivo/generators@0.55.0":
+"@nivo/generators@0.55.0":
   version "0.55.1"
   resolved "https://registry.yarnpkg.com/@nivo/generators/-/generators-0.55.0.tgz#9e8d50e8a3f26b90a1a4b4835a1e049cb76e28db"
   integrity sha512-ACFpsYu2JrrrLlv5Bun+Hrns6AqiILgVM0PmISSr7e7oOEUsp22QVK/MWzdeQQXKJLYC5K2T2cTIwhcT4JzRkw==
@@ -956,7 +956,7 @@
 
 "@x-nivo/heatmap@0.55.0":
   version "0.55.1"
-  resolved "https://registry.yarnpkg.com/@nivo/heatmap/-/heatmap-0.55.0.tgz#d63eea1898185c5c853ebcc60ccb8668c78892a5"
+  resolved "https://registry.yarnpkg.com/@x-nivo/heatmap/-/heatmap-0.55.0.tgz#d63eea1898185c5c853ebcc60ccb8668c78892a5"
   integrity sha512-k5PFmN3nGUJkXcOfxXGk+/a8mCY5/dEx4pWSlzDY0vxmxjJ08SZKBqFpUhZ1kqEE2GmxwzscLnl+5uSZdn5zcg==
   dependencies:
     "@x-nivo/axes" "0.55.1"
@@ -968,7 +968,7 @@
 
 "@x-nivo/legends@0.55.0":
   version "0.55.1"
-  resolved "https://registry.yarnpkg.com/@nivo/legends/-/legends-0.55.0.tgz#a9a5dccef2ea87a47689fcc499ac2e5fe0598d9e"
+  resolved "https://registry.yarnpkg.com/@x-nivo/legends/-/legends-0.55.0.tgz#a9a5dccef2ea87a47689fcc499ac2e5fe0598d9e"
   integrity sha512-zrGBRlXQ+VAZ0KX2WCtvhkP/mm7ux9GXtVIcmy1AdJ9jqxCY8G7o/W5io9Pk5LbtslshqyUpI3E9cJAg20tnKA==
   dependencies:
     lodash "^4.17.4"
@@ -976,7 +976,7 @@
 
 "@x-nivo/pie@0.55.0":
   version "0.55.1"
-  resolved "https://registry.yarnpkg.com/@nivo/pie/-/pie-0.55.0.tgz#fa6c1bfe91e1006c7a09194285f53d43c518fcd0"
+  resolved "https://registry.yarnpkg.com/@x-nivo/pie/-/pie-0.55.0.tgz#fa6c1bfe91e1006c7a09194285f53d43c518fcd0"
   integrity sha512-3vh85SCjwr82Ke/E7TyyVokSBo+YfMtu8+3svk2NdI2pM5MpMBa3MYxyamPGGtvoXs+fLF7qzElqd4NOoFIBmA==
   dependencies:
     "@x-nivo/core" "0.55.1"
@@ -988,7 +988,7 @@
 
 "@x-nivo/stream@0.55.0":
   version "0.55.1"
-  resolved "https://registry.yarnpkg.com/@nivo/stream/-/stream-0.55.0.tgz#177c2272f54aa51dc150c1b273b24c379314483c"
+  resolved "https://registry.yarnpkg.com/@x-nivo/stream/-/stream-0.55.0.tgz#177c2272f54aa51dc150c1b273b24c379314483c"
   integrity sha512-kOL7oH41R0H/2y3mELnrjgJbvnoG76/dlT+fgyF4I3Sg4lE3GoplHz1RiTGNCyTku5HRuuFTG1yIqvauCBGtcw==
   dependencies:
     "@x-nivo/core" "0.55.1"
@@ -1001,7 +1001,7 @@
 
 "@x-nivo/treemap@0.55.0":
   version "0.55.1"
-  resolved "https://registry.yarnpkg.com/@nivo/treemap/-/treemap-0.55.0.tgz#b8323de55b9f9fc6445e8d3c07867c62a5956a60"
+  resolved "https://registry.yarnpkg.com/@x-nivo/treemap/-/treemap-0.55.0.tgz#b8323de55b9f9fc6445e8d3c07867c62a5956a60"
   integrity sha512-M9exvmLsEOOFGIYveuiBkPqunmtcHnQa0BRitZb4zMPXFn+W50Q8iRTSTvZPlboHJeMeOwHSnGB9pk+H/jeeRQ==
   dependencies:
     "@x-nivo/core" "0.55.1"

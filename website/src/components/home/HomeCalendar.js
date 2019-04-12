@@ -8,7 +8,7 @@
  */
 import React from 'react'
 import { generateDayCounts } from '@nivo/generators'
-import { ResponsiveCalendarCanvas } from '@nivo/calendar'
+import { ResponsiveCalendarCanvas } from '@x-nivo/calendar'
 import { HomeItem, HomeItemLabel } from './styled'
 
 const calendarFrom = new Date(2015, 3, 1)

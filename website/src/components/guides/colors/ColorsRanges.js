@@ -1,5 +1,5 @@
 import React from 'react'
-import { colorSchemeIds, colorSchemes } from '@nivo/core'
+import { colorSchemeIds, colorSchemes } from '@x-nivo/core'
 import { Card } from '../../styled'
 
 const ColorsRanges = () => (

@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { ResponsiveWaffleCanvas, WaffleDefaultProps } from '@nivo/waffle'
+import { ResponsiveWaffleCanvas, WaffleDefaultProps } from '@x-nivo/waffle'
 import ComponentTemplate from '../../components/components/ComponentTemplate'
 import meta from '../../data/components/waffle/meta.yml'
 import { groupsByScope } from '../../data/components/waffle/props'

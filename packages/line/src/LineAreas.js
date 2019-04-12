@@ -9,7 +9,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import pure from 'recompose/pure'
-import { motionPropTypes, SmartMotion, blendModePropType } from '@nivo/core'
+import { motionPropTypes, SmartMotion, blendModePropType } from '@x-nivo/core'
 
 const LineAreas = ({
     areaGenerator,

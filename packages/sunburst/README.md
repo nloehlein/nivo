@@ -1,6 +1,6 @@
-# `@nivo/sunburst`
+# `@x-nivo/sunburst`
 
-[![version](https://img.shields.io/npm/v/@nivo/sunburst.svg?style=flat-square)](https://www.npmjs.com/package/@nivo/sunburst)
+[![version](https://img.shields.io/npm/v/@x-nivo/sunburst.svg?style=flat-square)](https://www.npmjs.com/package/@x-nivo/sunburst)
 
 ## Sunburst
 

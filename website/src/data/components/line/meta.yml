@@ -5,7 +5,7 @@ flavors:
     path: /line/api
 
 Line:
-  package: '@nivo/line'
+  package: '@x-nivo/line'
   tags:
     - svg
     - isomorphic
@@ -68,7 +68,7 @@ Line:
 
     The responsive alternative of this component is `ResponsiveLine`.
 
-    This component is available in the `@nivo/api`, see
+    This component is available in the `@x-nivo/api`, see
     [sample](api:/samples/line.svg) or
     [try it using the API client](self:/line/api).
 

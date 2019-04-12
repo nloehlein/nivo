@@ -7,7 +7,7 @@ flavors:
     path: /waffle/canvas
 
 Waffle:
-  package: '@nivo/waffle'
+  package: '@x-nivo/waffle'
   tags:
     - svg
     - isomorphic
@@ -28,8 +28,8 @@ Waffle:
     [WaffleCanvas](self:/waffle/canvas).
 
 WaffleHtml:
-  package: '@nivo/waffle'
-  tags: 
+  package: '@x-nivo/waffle'
+  tags:
     - html
     - isomorphic
   stories: []
@@ -51,7 +51,7 @@ WaffleHtml:
     [WaffleCanvas](self:/waffle/canvas).
 
 WaffleCanvas:
-  package: '@nivo/waffle'
+  package: '@x-nivo/waffle'
   tags:
     - canvas
   description: |

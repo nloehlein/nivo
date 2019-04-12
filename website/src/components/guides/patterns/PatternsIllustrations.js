@@ -7,10 +7,10 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { patternDotsDef, patternLinesDef, patternSquaresDef } from '@nivo/core'
-import { ResponsiveBar } from '@nivo/bar'
-import { ResponsiveStream } from '@nivo/stream'
-import { ResponsiveTreeMap } from '@nivo/treemap'
+import { patternDotsDef, patternLinesDef, patternSquaresDef } from '@x-nivo/core'
+import { ResponsiveBar } from '@x-nivo/bar'
+import { ResponsiveStream } from '@x-nivo/stream'
+import { ResponsiveTreeMap } from '@x-nivo/treemap'
 import { generateCountriesData } from '@nivo/generators'
 import { FullWidthBanner } from '../../styled'
 import { useTheme } from '../../../theming/context'

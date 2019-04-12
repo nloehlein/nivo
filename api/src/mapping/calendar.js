@@ -9,7 +9,7 @@
 'use strict'
 
 const Joi = require('joi')
-const { Calendar } = require('@nivo/calendar')
+const { Calendar } = require('@x-nivo/calendar')
 const common = require('./common')
 
 module.exports = {

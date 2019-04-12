@@ -7,17 +7,17 @@ flavors:
     path: /heatmap/api
 
 HeatMap:
-  package: '@nivo/heatmap'
+  package: '@x-nivo/heatmap'
   tags:
     - svg
     - isomorphic
   stories:
     - label: Custom cell component
-      link: 
+      link:
         kind: heatmap
         story: Custom cell component
     - label: Custom tooltip
-      link: 
+      link:
         kind: heatmap
         story: Custom tooltip
   description: |
@@ -27,14 +27,14 @@ HeatMap:
 
     The responsive alternative of this component is `ResponsiveHeatMap`.
 
-    This component is available in the `@nivo/api`, see
+    This component is available in the `@x-nivo/api`, see
     [sample](api:/samples/heatmap.svg) or
     [try it using the API client](self:/heatmap/api).
     You can also see more example usages in
     [the storybook](storybook:heatmap--default).
 
 HeatMapCanvas:
-  package: '@nivo/heatmap'
+  package: '@x-nivo/heatmap'
   tags:
     - canvas
   stories: []

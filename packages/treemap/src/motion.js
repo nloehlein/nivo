@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import { spring } from 'react-motion'
-import { colorMotionSpring } from '@nivo/core'
+import { colorMotionSpring } from '@x-nivo/core'
 
 export const nodeWillEnter = ({ data: node }) => ({
     x: node.x,

@@ -1,5 +1,5 @@
 import React from 'react'
-import { ResponsiveHeatMap } from '@nivo/heatmap'
+import { ResponsiveHeatMap } from '@x-nivo/heatmap'
 import { generateCountriesData } from '@nivo/generators'
 import { colors } from '../../constants'
 

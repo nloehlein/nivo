@@ -1,4 +1,4 @@
-declare module '@nivo/scales' {
+declare module '@x-nivo/scales' {
     export interface LinearScale {
         type: 'linear'
         min?: 'auto' | number

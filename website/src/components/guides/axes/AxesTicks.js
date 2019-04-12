@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { Axis } from '@nivo/core'
+import { Axis } from '@x-nivo/core'
 import { linearXScale, pointXScale, timeXScale } from './scales'
 import { FullWidthBanner, DescriptionBlock } from '../../styled'
 import { useAxisTheme } from './theme'

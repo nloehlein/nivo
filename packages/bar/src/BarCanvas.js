@@ -15,9 +15,9 @@ import {
     Container,
     BasicTooltip,
     renderGridLinesToCanvas,
-} from '@nivo/core'
-import { renderAxesToCanvas } from '@nivo/axes'
-import { renderLegendToCanvas } from '@nivo/legends'
+} from '@x-nivo/core'
+import { renderAxesToCanvas } from '@x-nivo/axes'
+import { renderLegendToCanvas } from '@x-nivo/legends'
 import { generateGroupedBars, generateStackedBars } from './compute'
 import { BarPropTypes } from './props'
 import enhance from './enhance'

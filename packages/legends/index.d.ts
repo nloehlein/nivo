@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-declare module '@nivo/legends' {
+declare module '@x-nivo/legends' {
     export type LegendAnchor =
         | 'top'
         | 'top-right'

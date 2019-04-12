@@ -6,7 +6,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-import { withDimensions, withTheme, withColors, curveFromProp } from '@nivo/core'
+import { withDimensions, withTheme, withColors, curveFromProp } from '@x-nivo/core'
 import * as props from './props'
 import withPropsOnChange from 'recompose/withPropsOnChange'
 import { line } from 'd3-shape'

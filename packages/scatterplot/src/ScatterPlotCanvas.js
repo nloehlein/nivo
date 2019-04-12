@@ -7,10 +7,10 @@
  * file that was distributed with this source code.
  */
 import React, { Component } from 'react'
-import { renderGridLinesToCanvas, getRelativeCursor, isCursorInRect, Container } from '@nivo/core'
-import { renderAxesToCanvas } from '@nivo/axes'
-import { renderLegendToCanvas } from '@nivo/legends'
-import { renderVoronoiToCanvas, renderVoronoiCellToCanvas } from '@nivo/voronoi'
+import { renderGridLinesToCanvas, getRelativeCursor, isCursorInRect, Container } from '@x-nivo/core'
+import { renderAxesToCanvas } from '@x-nivo/axes'
+import { renderLegendToCanvas } from '@x-nivo/legends'
+import { renderVoronoiToCanvas, renderVoronoiCellToCanvas } from '@x-nivo/voronoi'
 import { ScatterPlotPropTypes } from './props'
 import { enhanceCanvas } from './enhance'
 import ScatterPlotTooltip from './ScatterPlotTooltip'

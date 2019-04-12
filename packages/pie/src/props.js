@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { noop, radiansToDegrees } from '@nivo/core'
-import { LegendPropShape } from '@nivo/legends'
+import { noop, radiansToDegrees } from '@x-nivo/core'
+import { LegendPropShape } from '@x-nivo/legends'
 
 export const arcPropType = PropTypes.shape({
     startAngle: PropTypes.number.isRequired,

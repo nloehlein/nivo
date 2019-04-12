@@ -8,7 +8,7 @@
  */
 import React, { useState, useCallback } from 'react'
 import merge from 'lodash/merge'
-import { ResponsiveParallelCoordinatesCanvas, commonDefaultProps } from '@nivo/parallel-coordinates'
+import { ResponsiveParallelCoordinatesCanvas, commonDefaultProps } from '@x-nivo/parallel-coordinates'
 import { generateParallelCoordinatesData } from '@nivo/generators'
 import ComponentTemplate from '../../components/components/ComponentTemplate'
 import meta from '../../data/components/parallel-coordinates/meta.yml'
@@ -95,7 +95,7 @@ const ParallelCoordinatesCanvas = () => {
     const mappedSettings = mapper(settings)
 
     const code = generateCode('ResponsiveParallelCoordinatesCanvas', mappedSettings, {
-        pkg: '@nivo/parallel-coordinates',
+        pkg: '@x-nivo/parallel-coordinates',
         defaults: defaultProps,
     })
 

@@ -9,7 +9,7 @@
 'use strict'
 
 const Joi = require('joi')
-const { Sunburst } = require('@nivo/sunburst')
+const { Sunburst } = require('@x-nivo/sunburst')
 const common = require('./common')
 
 module.exports = {

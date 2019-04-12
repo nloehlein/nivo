@@ -14,8 +14,8 @@ import {
     getLabelGenerator,
     getInheritedColorGenerator,
     Container,
-} from '@nivo/core'
-import { renderLegendToCanvas } from '@nivo/legends'
+} from '@x-nivo/core'
+import { renderLegendToCanvas } from '@x-nivo/legends'
 import { arcPropType } from './props'
 import { drawSliceLabels, drawRadialLabels } from './canvas'
 import PieTooltip from './PieTooltip'

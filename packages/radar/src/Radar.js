@@ -24,8 +24,8 @@ import {
     getAccessorFor,
     Container,
     SvgWrapper,
-} from '@nivo/core'
-import { LegendPropShape, BoxLegendSvg } from '@nivo/legends'
+} from '@x-nivo/core'
+import { LegendPropShape, BoxLegendSvg } from '@x-nivo/legends'
 import RadarShapes from './RadarShapes'
 import RadarGrid from './RadarGrid'
 import RadarTooltip from './RadarTooltip'

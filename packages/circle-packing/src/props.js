@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { noop } from '@nivo/core'
-import { defsPropTypes } from '@nivo/core'
+import { noop } from '@x-nivo/core'
+import { defsPropTypes } from '@x-nivo/core'
 import BubbleNode from './BubbleNode'
 import BubbleHtmlNode from './BubbleHtmlNode'
 

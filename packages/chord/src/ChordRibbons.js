@@ -23,7 +23,7 @@ import {
     TableTooltip,
     Chip,
     motionPropTypes,
-} from '@nivo/core'
+} from '@x-nivo/core'
 
 /**
  * Used to get ribbon angles, instead of using source and target arcs,

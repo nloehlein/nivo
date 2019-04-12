@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-declare module '@nivo/axes' {
+declare module '@x-nivo/axes' {
     export interface AxisProps {
         tickValues?: number | number[] | string[] | Date[]
         tickSize?: number

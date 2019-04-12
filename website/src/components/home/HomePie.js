@@ -8,7 +8,7 @@
  */
 import React from 'react'
 import { generateProgrammingLanguageStats } from '@nivo/generators'
-import { ResponsivePie } from '@nivo/pie'
+import { ResponsivePie } from '@x-nivo/pie'
 import { HomeItem, HomeItemLabel } from './styled'
 
 const HomePie = ({ colors, nivoTheme }) => {

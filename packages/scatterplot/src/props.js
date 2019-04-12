@@ -7,10 +7,10 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { noop } from '@nivo/core'
-import { axisPropType } from '@nivo/axes'
-import { LegendPropShape } from '@nivo/legends'
-import { scalePropType } from '@nivo/scales'
+import { noop } from '@x-nivo/core'
+import { axisPropType } from '@x-nivo/axes'
+import { LegendPropShape } from '@x-nivo/legends'
+import { scalePropType } from '@x-nivo/scales'
 
 export const ScatterPlotPropTypes = {
     data: PropTypes.arrayOf(

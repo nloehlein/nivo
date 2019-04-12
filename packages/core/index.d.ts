@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { number } from 'prop-types'
 
-declare module '@nivo/core' {
+declare module '@x-nivo/core' {
     export interface Dimensions {
         height: number
         width: number

@@ -5,7 +5,7 @@ flavors:
     path: /sunburst/api
 
 Sunburst:
-  package: '@nivo/sunburst'
+  package: '@x-nivo/sunburst'
   tags:
     - hierarchy
     - radial

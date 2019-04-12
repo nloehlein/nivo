@@ -10,7 +10,7 @@
     "@x-nivo/chord": "^0.56.1",
     "@x-nivo/circle-packing": "^0.56.1",
     "@x-nivo/core": "^0.56.1",
-    "@x-nivo/generators": "^0.56.1",
+    "@nivo/generators": "^0.56.1",
     "@x-nivo/geo": "^0.56.1",
     "@x-nivo/heatmap": "^0.56.1",
     "@x-nivo/legends": "^0.56.1",

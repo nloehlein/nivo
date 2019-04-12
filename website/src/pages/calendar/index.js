@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { ResponsiveCalendar, CalendarDefaultProps } from '@nivo/calendar'
+import { ResponsiveCalendar, CalendarDefaultProps } from '@x-nivo/calendar'
 import { generateDayCounts } from '@nivo/generators'
 import ComponentTemplate from '../../components/components/ComponentTemplate'
 import meta from '../../data/components/calendar/meta.yml'

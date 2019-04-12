@@ -9,7 +9,7 @@
 'use strict'
 
 const Joi = require('joi')
-const { Bubble } = require('@nivo/circle-packing')
+const { Bubble } = require('@x-nivo/circle-packing')
 const common = require('./common')
 
 module.exports = {

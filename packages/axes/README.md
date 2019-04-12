@@ -1,1 +1,1 @@
-# `@nivo/axes`
+# `@x-nivo/axes`

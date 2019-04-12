@@ -7,10 +7,10 @@ import {
     ColorProps,
     GetColor,
     SvgDefsAndFill,
-} from '@nivo/core'
-import { LegendProps } from '@nivo/legends'
+} from '@x-nivo/core'
+import { LegendProps } from '@x-nivo/legends'
 
-declare module '@nivo/pie' {
+declare module '@x-nivo/pie' {
     export interface PieDatum {
         id: string | number
         value: number

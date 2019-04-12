@@ -8,7 +8,7 @@
  */
 import React from 'react'
 import { generateLibTree } from '@nivo/generators'
-import { ResponsiveBubbleCanvas } from '@nivo/circle-packing'
+import { ResponsiveBubbleCanvas } from '@x-nivo/circle-packing'
 import { HomeItem, HomeItemLabel } from './styled'
 
 const HomeBubble = ({ reversedColors }) => {

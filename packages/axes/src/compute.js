@@ -11,7 +11,7 @@ import isArray from 'lodash/isArray'
 import isFunction from 'lodash/isFunction'
 import { timeFormat } from 'd3-time-format'
 import { format as d3Format } from 'd3-format'
-import { textPropsByEngine } from '@nivo/core'
+import { textPropsByEngine } from '@x-nivo/core'
 
 export const centerScale = scale => {
     const bandwidth = scale.bandwidth()

@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import React, { memo, Fragment, useCallback } from 'react'
-import { SvgWrapper, withContainer, useDimensions, useTheme, useTooltip } from '@nivo/core'
-import { BoxLegendSvg } from '@nivo/legends'
+import { SvgWrapper, withContainer, useDimensions, useTheme, useTooltip } from '@x-nivo/core'
+import { BoxLegendSvg } from '@x-nivo/legends'
 import { ChoroplethPropTypes, ChoroplethDefaultProps } from './props'
 import GeoGraticule from './GeoGraticule'
 import GeoMapFeature from './GeoMapFeature'

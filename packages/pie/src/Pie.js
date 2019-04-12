@@ -20,7 +20,7 @@ import {
     Container,
     SvgWrapper,
     bindDefs,
-} from '@nivo/core'
+} from '@x-nivo/core'
 import { PieDefaultProps } from './props'
 import PieSlice from './PieSlice'
 import PieRadialLabels from './PieRadialLabels'

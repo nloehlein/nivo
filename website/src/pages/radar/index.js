@@ -8,7 +8,7 @@
  */
 import React from 'react'
 import { generateWinesTastes } from '@nivo/generators'
-import { ResponsiveRadar } from '@nivo/radar'
+import { ResponsiveRadar } from '@x-nivo/radar'
 import ComponentTemplate from '../../components/components/ComponentTemplate'
 import meta from '../../data/components/radar/meta.yml'
 import mapper from '../../data/components/radar/mapper'
@@ -126,7 +126,7 @@ const Radar = () => {
             keys: data.keys,
             ...mappedSettings,
         },
-        { pkg: '@nivo/radar' }
+        { pkg: '@x-nivo/radar' }
     )
 
     return (

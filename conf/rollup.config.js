@@ -12,7 +12,7 @@ const externals = [
 ]
 
 const mapGlobal = name => {
-    if (name.indexOf('@nivo') === 0) return 'nivo'
+    if (name.indexOf('@x-nivo') === 0) return 'nivo'
     if (name.indexOf('d3-') === 0) return 'd3'
     if (name.indexOf('recompose') === 0) return upperFirst(camelCase(name))
     if (name === 'react') return 'React'
@@ -26,7 +26,7 @@ const common = {
     external: id => externals.includes(id)
         || id.indexOf('react') === 0
         || id.indexOf('d3') === 0
-        || id.indexOf('@nivo') === 0
+        || id.indexOf('@x-nivo') === 0
         || id.indexOf('lodash') === 0
         || id.indexOf('recompose') === 0,
 }
@@ -59,7 +59,7 @@ const configs = [
         output: {
             file: `./packages/${pkg}/dist/nivo-${pkg}.esm.js`,
             format: 'esm',
-            name: `@nivo/${pkg}`,
+            name: `@x-nivo/${pkg}`,
         },
         plugins: commonPlugins,
     }
@@ -71,7 +71,7 @@ if (!isWatching) {
         output: {
             file: `./packages/${pkg}/dist/nivo-${pkg}.cjs.js`,
             format: 'cjs',
-            name: `@nivo/${pkg}`,
+            name: `@x-nivo/${pkg}`,
         },
         plugins: commonPlugins,
     })

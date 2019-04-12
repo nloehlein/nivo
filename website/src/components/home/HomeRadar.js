@@ -8,7 +8,7 @@
  */
 import React from 'react'
 import { generateWinesTastes } from '@nivo/generators'
-import { ResponsiveRadar } from '@nivo/radar'
+import { ResponsiveRadar } from '@x-nivo/radar'
 import { HomeItem, HomeItemLabel } from './styled'
 
 const HomeRadar = ({ colors, nivoTheme }) => {

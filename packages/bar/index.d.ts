@@ -8,10 +8,10 @@ import {
     GetColor,
     SvgDefsAndFill,
     CartesianMarkerProps,
-} from '@nivo/core'
-import { LegendProps } from '@nivo/legends'
+} from '@x-nivo/core'
+import { LegendProps } from '@x-nivo/legends'
 
-declare module '@nivo/bar' {
+declare module '@x-nivo/bar' {
     export interface Data {
         data: object[]
     }

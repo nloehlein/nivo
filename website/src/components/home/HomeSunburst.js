@@ -8,7 +8,7 @@
  */
 import React from 'react'
 import { generateLibTree } from '@nivo/generators'
-import { ResponsiveSunburst } from '@nivo/sunburst'
+import { ResponsiveSunburst } from '@x-nivo/sunburst'
 import { HomeItem, HomeItemLabel } from './styled'
 
 const HomeSunburst = ({ colors }) => {

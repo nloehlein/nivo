@@ -8,7 +8,7 @@
  */
 import React from 'react'
 import { generateDrinkStats } from '@nivo/generators'
-import { ResponsiveLine } from '@nivo/line'
+import { ResponsiveLine } from '@x-nivo/line'
 import { HomeItem, HomeItemLabel } from './styled'
 import { commonAxes } from './settings'
 

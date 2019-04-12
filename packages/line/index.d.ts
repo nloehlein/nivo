@@ -1,12 +1,12 @@
 import * as React from 'react'
-import { Dimensions, Box, Theme, MotionProps, ColorProps, CartesianMarkerProps } from '@nivo/core'
-import { LegendProps } from '@nivo/legends'
-import { Scale, ScaleFunc } from '@nivo/scales'
-import { AxisProps } from '@nivo/axes'
+import { Dimensions, Box, Theme, MotionProps, ColorProps, CartesianMarkerProps } from '@x-nivo/core'
+import { LegendProps } from '@x-nivo/legends'
+import { Scale, ScaleFunc } from '@x-nivo/scales'
+import { AxisProps } from '@x-nivo/axes'
 
 type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>
 
-declare module '@nivo/line' {
+declare module '@x-nivo/line' {
     export type TooltipFormatter = (value: string | number | Date) => React.ReactNode
 
     export interface LineDatum {

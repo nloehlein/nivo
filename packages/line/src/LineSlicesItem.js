@@ -15,7 +15,7 @@ import pure from 'recompose/pure'
 import withState from 'recompose/withState'
 import withHandlers from 'recompose/withHandlers'
 import withPropsOnChange from 'recompose/withPropsOnChange'
-import { TableTooltip } from '@nivo/core'
+import { TableTooltip } from '@x-nivo/core'
 
 const Chip = ({ color }) => (
     <span style={{ display: 'block', width: '12px', height: '12px', background: color }} />

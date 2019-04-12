@@ -31,8 +31,8 @@
     "@storybook/theming": "^5.0.3",
     "@types/lodash": "^4.14.123",
     "@types/react": "^16.8.8",
-    "@x-nivo/babel-preset": "0.54.0",
-    "@x-nivo/generators": "0.54.0",
+    "@nivo/babel-preset": "0.54.0",
+    "@nivo/generators": "0.54.0",
     "babel-eslint": "^8.2.1",
     "babel-jest": "^24.5.0",
     "babel-loader": "^8.0.5",
@@ -75,7 +75,7 @@
       "postinstall": "npm ls --depth 0"
     }
   },
-  "private": false,
+  "private": true,
   "licenses": [
     {
       "type": "MIT",

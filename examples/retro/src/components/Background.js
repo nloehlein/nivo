@@ -1,5 +1,5 @@
 import React from 'react'
-import { ResponsiveStream } from '@nivo/stream'
+import { ResponsiveStream } from '@x-nivo/stream'
 import { generateCountriesData } from '@nivo/generators'
 
 const Background = () => (

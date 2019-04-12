@@ -8,7 +8,7 @@
  */
 import React from 'react'
 import merge from 'lodash/merge'
-import { ResponsiveParallelCoordinates, commonDefaultProps } from '@nivo/parallel-coordinates'
+import { ResponsiveParallelCoordinates, commonDefaultProps } from '@x-nivo/parallel-coordinates'
 import { generateParallelCoordinatesData } from '@nivo/generators'
 import ComponentTemplate from '../../components/components/ComponentTemplate'
 import meta from '../../data/components/parallel-coordinates/meta.yml'

@@ -8,7 +8,7 @@
  */
 import React from 'react'
 import { generateCountriesData } from '@nivo/generators'
-import { ResponsiveBar } from '@nivo/bar'
+import { ResponsiveBar } from '@x-nivo/bar'
 import { HomeItem, HomeItemLabel } from './styled'
 import { commonAxes } from './settings'
 

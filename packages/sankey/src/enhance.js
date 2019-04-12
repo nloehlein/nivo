@@ -16,7 +16,7 @@ import {
     withTheme,
     withDimensions,
     withMotion,
-} from '@nivo/core'
+} from '@x-nivo/core'
 import { SankeyDefaultProps, sankeyAlignmentFromProp } from './props'
 
 const getId = d => d.id

@@ -1,6 +1,6 @@
-# `@nivo/sankey`
+# `@x-nivo/sankey`
 
-[![version](https://img.shields.io/npm/v/@nivo/sankey.svg?style=flat-square)](https://www.npmjs.com/package/@nivo/sankey)
+[![version](https://img.shields.io/npm/v/@x-nivo/sankey.svg?style=flat-square)](https://www.npmjs.com/package/@x-nivo/sankey)
 
 ## Sankey
 

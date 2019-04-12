@@ -9,7 +9,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import pure from 'recompose/pure'
-import { motionPropTypes } from '@nivo/core'
+import { motionPropTypes } from '@x-nivo/core'
 import Line from './LineLine'
 
 const LineLines = ({

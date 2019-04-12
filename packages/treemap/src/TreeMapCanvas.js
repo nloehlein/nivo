@@ -7,9 +7,9 @@
  * file that was distributed with this source code.
  */
 import React, { Component } from 'react'
-import { degreesToRadians } from '@nivo/core'
-import { getRelativeCursor, isCursorInRect } from '@nivo/core'
-import { Container } from '@nivo/core'
+import { degreesToRadians } from '@x-nivo/core'
+import { getRelativeCursor, isCursorInRect } from '@x-nivo/core'
+import { Container } from '@x-nivo/core'
 import { TreeMapCanvasPropTypes } from './props'
 import enhance from './enhance'
 import TreeMapNodeTooltip from './TreeMapNodeTooltip'

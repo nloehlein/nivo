@@ -110,7 +110,7 @@ endef
 ########################################################################################################################
 
 package-lint-%: ##@1 packages run eslint on package
-	@echo "${YELLOW}Running eslint on package ${WHITE}@nivo/${*}${RESET}"
+	@echo "${YELLOW}Running eslint on package ${WHITE}@x-nivo/${*}${RESET}"
 	@./node_modules/.bin/eslint ./packages/${*}/{src,tests}
 
 packages-lint: ##@1 packages run eslint on all packages
@@ -118,7 +118,7 @@ packages-lint: ##@1 packages run eslint on all packages
 	@./node_modules/.bin/eslint "./packages/*/{src,tests}/**/*.js"
 
 package-tslint-%: ##@1 packages run tslint on package
-	@echo "${YELLOW}Running tslint on package ${WHITE}@nivo/${*}${RESET}"
+	@echo "${YELLOW}Running tslint on package ${WHITE}@x-nivo/${*}${RESET}"
 	@./node_modules/.bin/tslint ./packages/${*}/index.d.ts
 
 packages-tslint: ##@1 packages run tslint on all packages
@@ -162,7 +162,7 @@ packages-build: ##@1 packages build all packages
         | xargs -I '{}' sh -c '$(MAKE) package-build-{}'
 
 package-build-%: ##@1 packages build a package
-	@echo "${YELLOW}Building package ${WHITE}@nivo/${*}${RESET}"
+	@echo "${YELLOW}Building package ${WHITE}@x-nivo/${*}${RESET}"
 	@rm -rf ./packages/${*}/cjs
 	@rm -rf ./packages/${*}/umd
 	@export PACKAGE=${*}; ./node_modules/.bin/rollup -c conf/rollup.config.js
@@ -183,7 +183,7 @@ packages-publish-next: ##@1 packages publish all packages for @next npm tag
 	@./node_modules/.bin/lerna publish ---exact --npm-tag=next
 
 package-watch-%: ##@1 packages build package (es flavor) on change, eg. `package-build-watch-bar`
-	@echo "${YELLOW}Running build watcher for package ${WHITE}@nivo/${*}${RESET}"
+	@echo "${YELLOW}Running build watcher for package ${WHITE}@x-nivo/${*}${RESET}"
 	@rm -rf ./packages/${*}/cjs
 	@rm -rf ./packages/${*}/umd
 	@export PACKAGE=${*}; ./node_modules/.bin/rollup -c conf/rollup.config.js -w
@@ -191,7 +191,7 @@ package-watch-%: ##@1 packages build package (es flavor) on change, eg. `package
 package-dev-%: ##@1 packages setup package for development, link to website, run watcher
 	@echo "${YELLOW}Preparing package ${WHITE}${*}${YELLOW} for development${RESET}"
 	@cd packages/${*} && yarn link
-	@cd examples/typescript && yarn link @nivo/${*}
+	@cd examples/typescript && yarn link @x-nivo/${*}
 	@$(MAKE) package-watch-${*}
 
 ########################################################################################################################

@@ -9,7 +9,7 @@
 'use strict'
 
 const Joi = require('joi')
-const { Sankey, sankeyAlignmentPropKeys } = require('@nivo/sankey')
+const { Sankey, sankeyAlignmentPropKeys } = require('@x-nivo/sankey')
 const common = require('./common')
 
 module.exports = {

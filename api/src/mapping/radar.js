@@ -9,7 +9,7 @@
 'use strict'
 
 const Joi = require('joi')
-const { Radar } = require('@nivo/radar')
+const { Radar } = require('@x-nivo/radar')
 const common = require('./common')
 
 module.exports = {
