@@ -21,5 +21,6 @@
   },
   "scripts": {
     "version": "echo ${npm_package_version}"
-  }
+  },
+  "gitHead": "78908fec13dc5556cd5b75500f9e1821a18152bc"
 }
