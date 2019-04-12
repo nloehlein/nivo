@@ -4,7 +4,7 @@
     "api",
     "website"
   ],
-  "version": "0.55.1",
+  "version": "0.56.0",
   "npmClient": "yarn",
   "useWorkspaces": true
 }
