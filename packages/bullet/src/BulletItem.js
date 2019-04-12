@@ -55,6 +55,7 @@ class BulletItem extends Component {
         layout: PropTypes.oneOf(['horizontal', 'vertical']).isRequired,
         reverse: PropTypes.bool.isRequired,
         axisPosition: PropTypes.oneOf(['before', 'after']).isRequired,
+        axisValueFormat: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
         x: PropTypes.number.isRequired,
         y: PropTypes.number.isRequired,
         width: PropTypes.number.isRequired,
@@ -161,6 +162,7 @@ class BulletItem extends Component {
             layout,
             reverse,
             axisPosition: _axisPosition,
+            axisValueFormat,
             x,
             y,
             width,
@@ -248,6 +250,7 @@ class BulletItem extends Component {
                 scale={scale}
                 position={axisPosition}
                 theme={theme}
+                format={axisValueFormat}
                 {...motionProps}
             />
         )

@@ -27,6 +27,7 @@ export class Bullet extends Component {
             markerSize,
             reverse,
             axisPosition,
+            axisValueFormat,
 
             margin,
             width,
@@ -129,6 +130,7 @@ export class Bullet extends Component {
                                 markerColors={markerColors}
                                 theme={theme}
                                 axisPosition={axisPosition}
+                                axisValueFormat={axisValueFormat}
                                 {...motionProps}
                                 showTooltip={showTooltip}
                                 hideTooltip={hideTooltip}
