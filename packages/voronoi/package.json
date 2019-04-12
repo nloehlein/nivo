@@ -1,6 +1,6 @@
 {
   "name": "@x-nivo/voronoi",
-  "version": "0.56.0",
+  "version": "0.56.1",
   "license": "MIT",
   "author": {
     "name": "Raphaël Benitte",
@@ -24,7 +24,7 @@
     "index.d.ts"
   ],
   "dependencies": {
-    "@x-nivo/core": "^0.56.0",
+    "@x-nivo/core": "^0.56.1",
     "d3-delaunay": "^4.1.5",
     "d3-scale": "^2.1.2",
     "recompose": "^0.30.0"
