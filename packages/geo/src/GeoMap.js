@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import React, { Fragment, useCallback, memo } from 'react'
-import { SvgWrapper, withContainer, useDimensions, useTheme, useTooltip } from '@x-nivo/core'
+import { SvgWrapper, withContainer, useDimensions, useTheme, useTooltip } from '@nivo/core'
 import { GeoMapPropTypes, GeoMapDefaultProps } from './props'
 import GeoGraticule from './GeoGraticule'
 import GeoMapFeature from './GeoMapFeature'

@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { themeContext } from '@x-nivo/core'
+import { themeContext } from '@nivo/core'
 import { useTheme } from '../../theming/context'
 import Layout from '../../components/Layout'
 import SEO from '../../components/seo'

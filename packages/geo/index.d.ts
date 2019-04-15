@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Dimensions, Theme, Box, BoxAlign } from '@x-nivo/core'
+import { Dimensions, Theme, Box, BoxAlign } from '@nivo/core'
 
 declare module '@x-nivo/geo' {
     ///////////////////////////////////////////////////////////////////////////

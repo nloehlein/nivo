@@ -8,7 +8,7 @@
  */
 import React from 'react'
 import styled from 'styled-components'
-import { patternDotsDef, patternLinesDef } from '@x-nivo/core'
+import { patternDotsDef, patternLinesDef } from '@nivo/core'
 import { settingsMapper, mapInheritedColor } from '../../../lib/settings'
 
 const TooltipWrapper = styled.div`

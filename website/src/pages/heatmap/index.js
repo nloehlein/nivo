@@ -8,7 +8,7 @@
  */
 import React from 'react'
 import { ResponsiveHeatMap, HeatMapDefaultProps } from '@x-nivo/heatmap'
-import { patternLinesDef } from '@x-nivo/core'
+import { patternLinesDef } from '@nivo/core'
 import isFunction from 'lodash/isFunction'
 import ComponentTemplate from '../../components/components/ComponentTemplate'
 import meta from '../../data/components/heatmap/meta.yml'

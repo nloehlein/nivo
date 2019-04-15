@@ -23,7 +23,7 @@ import {
     geoNaturalEarth1,
     geoGraticule,
 } from 'd3-geo'
-import { guessQuantizeColorScale } from '@x-nivo/core'
+import { guessQuantizeColorScale } from '@nivo/core'
 import { useQuantizeColorScaleLegendData } from '@x-nivo/legends'
 
 export const projectionById = {

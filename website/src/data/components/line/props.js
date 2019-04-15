@@ -6,7 +6,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-import { lineCurvePropKeys, DotsItemDefaultProps as dotDefaults } from '@x-nivo/core'
+import { lineCurvePropKeys, DotsItemDefaultProps as dotDefaults } from '@nivo/core'
 import { LineDefaultProps as defaults } from '@x-nivo/line'
 import {
     axesProperties,

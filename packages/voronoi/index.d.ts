@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Dimensions, Box, Theme } from '@x-nivo/core'
+import { Dimensions, Box, Theme } from '@nivo/core'
 
 declare module '@x-nivo/voronoi' {
     export interface VoronoiDatum {

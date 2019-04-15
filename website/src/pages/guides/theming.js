@@ -8,7 +8,7 @@
  */
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import { defaultTheme } from '@x-nivo/core'
+import { defaultTheme } from '@nivo/core'
 import { ResponsiveBar } from '@x-nivo/bar'
 import { ResponsiveLine } from '@x-nivo/line'
 import Layout from '../../components/Layout'

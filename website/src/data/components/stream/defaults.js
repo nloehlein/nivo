@@ -6,7 +6,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-import { patternDotsDef, patternSquaresDef } from '@x-nivo/core'
+import { patternDotsDef, patternSquaresDef } from '@nivo/core'
 
 export default {
     margin: {

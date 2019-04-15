@@ -6,7 +6,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-import { boxAlignments } from '@x-nivo/core'
+import { boxAlignments } from '@nivo/core'
 import { CalendarDefaultProps as defaults } from '@x-nivo/calendar'
 import { getPropertiesGroupsControls } from '../../../lib/componentProperties'
 

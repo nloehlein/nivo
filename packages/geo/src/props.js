@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { quantizeColorScalePropType } from '@x-nivo/core'
+import { quantizeColorScalePropType } from '@nivo/core'
 import { projectionById } from './hooks'
 import ChoroplethTooltip from './ChoroplethTooltip'
 
