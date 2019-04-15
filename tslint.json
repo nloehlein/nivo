@@ -6,7 +6,6 @@
         "ordered-imports": false,
         "max-classes-per-file": false,
         "interface-name": false,
-        "no-empty-interface": false,
         "trailing-comma": [
             true,
             {

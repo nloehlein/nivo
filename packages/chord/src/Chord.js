@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { Container, SvgWrapper } from '@x-nivo/core'
-import { BoxLegendSvg } from '@x-nivo/legends'
+import { Container, SvgWrapper } from '@nivo/core'
+import { BoxLegendSvg } from '@nivo/legends'
 import enhance from './enhance'
 import setDisplayName from 'recompose/setDisplayName'
 import { ChordPropTypes } from './props'

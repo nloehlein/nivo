@@ -2,7 +2,6 @@ import { camelCase, upperFirst } from 'lodash'
 import babel from 'rollup-plugin-babel'
 import resolve from 'rollup-plugin-node-resolve'
 import stripBanner from 'rollup-plugin-strip-banner'
-import cleanup from 'rollup-plugin-cleanup'
 
 const pkg = process.env.PACKAGE
 const isWatching = process.env.ROLLUP_WATCH === 'TRUE'
@@ -12,7 +11,7 @@ const externals = [
 ]
 
 const mapGlobal = name => {
-    if (name.indexOf('@x-nivo') === 0) return 'nivo'
+    if (name.indexOf('@nivo') === 0) return 'nivo'
     if (name.indexOf('d3-') === 0) return 'd3'
     if (name.indexOf('recompose') === 0) return upperFirst(camelCase(name))
     if (name === 'react') return 'React'
@@ -26,7 +25,7 @@ const common = {
     external: id => externals.includes(id)
         || id.indexOf('react') === 0
         || id.indexOf('d3') === 0
-        || id.indexOf('@x-nivo') === 0
+        || id.indexOf('@nivo') === 0
         || id.indexOf('lodash') === 0
         || id.indexOf('recompose') === 0,
 }
@@ -47,10 +46,9 @@ const commonPlugins = [
         exclude: 'node_modules/**',
         externalHelpers: true,
         presets: [
-            '@x-nivo/babel-preset'
+            '@nivo/babel-preset'
         ]
     }),
-    cleanup()
 ]
 
 const configs = [
@@ -59,7 +57,7 @@ const configs = [
         output: {
             file: `./packages/${pkg}/dist/nivo-${pkg}.esm.js`,
             format: 'esm',
-            name: `@x-nivo/${pkg}`,
+            name: `@nivo/${pkg}`,
         },
         plugins: commonPlugins,
     }
@@ -71,7 +69,7 @@ if (!isWatching) {
         output: {
             file: `./packages/${pkg}/dist/nivo-${pkg}.cjs.js`,
             format: 'cjs',
-            name: `@x-nivo/${pkg}`,
+            name: `@nivo/${pkg}`,
         },
         plugins: commonPlugins,
     })

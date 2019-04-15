@@ -1,6 +1,6 @@
 {
-  "name": "@x-nivo/api",
-  "version": "0.56.6",
+  "name": "@nivo/api",
+  "version": "0.54.0",
   "description": "Rendering API for nivo dataviz React/d3 components",
   "main": "src/app.js",
   "licenses": [
@@ -22,26 +22,26 @@
     "nodemon": "^1.18.10"
   },
   "dependencies": {
-    "@x-nivo/bar": "^0.56.6",
-    "@x-nivo/bullet": "^0.56.6",
-    "@x-nivo/calendar": "^0.56.6",
-    "@x-nivo/chord": "^0.56.6",
-    "@x-nivo/circle-packing": "^0.56.6",
-    "@x-nivo/core": "^0.56.6",
-    "@x-nivo/generators": "^0.56.6",
-    "@x-nivo/heatmap": "^0.56.6",
-    "@x-nivo/legends": "^0.56.6",
-    "@x-nivo/line": "^0.56.6",
-    "@x-nivo/parallel-coordinates": "^0.56.6",
-    "@x-nivo/pie": "^0.56.6",
-    "@x-nivo/radar": "^0.56.6",
-    "@x-nivo/sankey": "^0.56.6",
-    "@x-nivo/scatterplot": "^0.56.6",
-    "@x-nivo/stream": "^0.56.6",
-    "@x-nivo/sunburst": "^0.56.6",
-    "@x-nivo/treemap": "^0.56.6",
-    "@x-nivo/voronoi": "^0.56.6",
-    "@x-nivo/waffle": "^0.56.6",
+    "@nivo/bar": "0.54.0",
+    "@nivo/bullet": "0.54.0",
+    "@nivo/calendar": "0.54.0",
+    "@nivo/chord": "0.54.0",
+    "@nivo/circle-packing": "0.54.0",
+    "@nivo/core": "0.54.0",
+    "@nivo/generators": "0.54.0",
+    "@nivo/heatmap": "0.54.0",
+    "@nivo/legends": "0.54.0",
+    "@nivo/line": "0.54.0",
+    "@nivo/parallel-coordinates": "0.54.0",
+    "@nivo/pie": "0.54.0",
+    "@nivo/radar": "0.54.0",
+    "@nivo/sankey": "0.54.0",
+    "@nivo/scatterplot": "0.54.0",
+    "@nivo/stream": "0.54.0",
+    "@nivo/sunburst": "0.54.0",
+    "@nivo/treemap": "0.54.0",
+    "@nivo/voronoi": "0.54.0",
+    "@nivo/waffle": "0.54.0",
     "body-parser": "^1.17.2",
     "compression": "^1.7.0",
     "cors": "^2.8.4",
@@ -61,6 +61,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "gitHead": "1d9f637cc1bf7f452488f31476fd41314f98dcb8"
+  }
 }

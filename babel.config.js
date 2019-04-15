@@ -1,3 +1,3 @@
 module.exports = {
-  presets: ['@x-nivo/babel-preset']
+  presets: ['@nivo/babel-preset']
 }

@@ -8,7 +8,7 @@
  */
 import React from 'react'
 import PropTypes from 'prop-types'
-import { BasicTooltip } from '@x-nivo/core'
+import { BasicTooltip } from '@nivo/core'
 
 const WaffleCellTooltip = ({
     position,

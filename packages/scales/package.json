@@ -1,6 +1,6 @@
 {
-  "name": "@x-nivo/scales",
-  "version": "0.56.6",
+  "name": "@nivo/scales",
+  "version": "0.54.0",
   "license": "MIT",
   "author": {
     "name": "Raphaël Benitte",
@@ -24,6 +24,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "gitHead": "1d9f637cc1bf7f452488f31476fd41314f98dcb8"
+  }
 }

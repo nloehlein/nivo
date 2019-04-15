@@ -7,9 +7,9 @@ import {
     ColorProps,
     GetColor,
     SvgDefsAndFill,
-} from '@x-nivo/core'
+} from '@nivo/core'
 
-declare module '@x-nivo/waffle' {
+declare module '@nivo/waffle' {
     export type WaffleFillDirection = 'top' | 'right' | 'bottom' | 'left'
 
     export interface WaffleDatum {

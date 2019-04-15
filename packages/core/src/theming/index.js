@@ -9,4 +9,3 @@
 export * from './propTypes'
 export * from './defaultTheme'
 export * from './extend'
-export * from './context'

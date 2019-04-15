@@ -7,10 +7,10 @@
  * file that was distributed with this source code.
  */
 import React, { Component } from 'react'
-import range from 'lodash.range'
+import range from 'lodash/range'
 import setDisplayName from 'recompose/setDisplayName'
-import { isCursorInRect, getRelativeCursor, Container } from '@x-nivo/core'
-import { renderLegendToCanvas } from '@x-nivo/legends'
+import { isCursorInRect, getRelativeCursor, Container } from '@nivo/core'
+import { renderLegendToCanvas } from '@nivo/legends'
 import enhance from './enhance'
 import { WaffleCanvasPropTypes } from './props'
 import WaffleCellTooltip from './WaffleCellTooltip'

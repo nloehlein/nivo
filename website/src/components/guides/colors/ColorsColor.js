@@ -1,8 +1,7 @@
 import React from 'react'
-import { Card } from '../../styled'
 
 const ColorsColor = () => (
-    <Card className="guide__table">
+    <div className="guide__table">
         <table>
             <thead>
                 <tr>
@@ -51,7 +50,7 @@ const ColorsColor = () => (
                 </tr>
             </tbody>
         </table>
-    </Card>
+    </div>
 )
 
 export default ColorsColor

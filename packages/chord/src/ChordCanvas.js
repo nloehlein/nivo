@@ -15,7 +15,7 @@ import {
     getRelativeCursor,
     getHoveredArc,
     Container,
-} from '@x-nivo/core'
+} from '@nivo/core'
 import { ChordPropTypes } from './props'
 import enhance from './enhance'
 import ChordArcTooltip from './ChordArcTooltip'

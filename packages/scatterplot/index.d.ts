@@ -1,10 +1,10 @@
 import * as React from 'react'
-import { Dimensions, Box, Theme, MotionProps, CartesianMarkerProps } from '@x-nivo/core'
-import { LegendProps } from '@x-nivo/legends'
-import { AxisProps } from '@x-nivo/axes'
-import { Scale } from '@x-nivo/scales'
+import { Dimensions, Box, Theme, MotionProps, CartesianMarkerProps } from '@nivo/core'
+import { LegendProps } from '@nivo/legends'
+import { AxisProps } from '@nivo/axes'
+import { Scale } from '@nivo/scales'
 
-declare module '@x-nivo/scatterplot' {
+declare module '@nivo/scatterplot' {
     export type TooltipFormatter = (value: { x: number | string; y: number | string }) => string
 
     export interface ScatterPlotDatum {

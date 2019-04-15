@@ -1,6 +1,6 @@
 import React from 'react'
 import { mount } from 'enzyme'
-import { Axis } from '@x-nivo/axes'
+import { Axis } from '@nivo/axes'
 import Line from '../src/Line'
 import LineSlicesItem from '../src/LineSlicesItem'
 import renderer from 'react-test-renderer'

@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-declare module '@x-nivo/legends' {
+declare module '@nivo/legends' {
     export type LegendAnchor =
         | 'top'
         | 'top-right'
@@ -85,11 +85,4 @@ declare module '@x-nivo/legends' {
 
         effects?: LegendEffect[]
     }
-
-    export interface QuantileLegendProps {
-        scale: any
-        domain?: number[]
-    }
-
-    export type QuantileLegendSvg = React.FunctionComponent<QuantileLegendProps>
 }

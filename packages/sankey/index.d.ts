@@ -1,8 +1,8 @@
 import * as React from 'react'
-import { Theme } from '@x-nivo/core'
-import { LegendProps } from '@x-nivo/legends'
+import { Theme } from '@nivo/core'
+import { LegendProps } from '@nivo/legends'
 
-declare module '@x-nivo/sankey' {
+declare module '@nivo/sankey' {
     export class Sankey extends React.Component<Data & SankeyProps & Dimensions> {}
     export class ResponsiveSankey extends React.Component<Data & SankeyProps> {}
 

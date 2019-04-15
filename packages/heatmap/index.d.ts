@@ -1,8 +1,8 @@
 import * as React from 'react'
-import { Dimensions, Box, MotionProps, ColorProps, GetColor, Theme } from '@x-nivo/core'
-import { Axis } from '@x-nivo/axes'
+import { Dimensions, Box, MotionProps, ColorProps, GetColor, Theme } from '@nivo/core'
+import { Axis } from '@nivo/axes'
 
-declare module '@x-nivo/heatmap' {
+declare module '@nivo/heatmap' {
     export interface HeatMapDatum {
         [key: string]: string | number
     }

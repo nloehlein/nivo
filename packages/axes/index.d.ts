@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-declare module '@x-nivo/axes' {
+declare module '@nivo/axes' {
     export interface AxisProps {
         tickValues?: number | number[] | string[] | Date[]
         tickSize?: number
@@ -12,6 +12,4 @@ declare module '@x-nivo/axes' {
         legendPosition?: 'start' | 'middle' | 'end'
         legendOffset?: number
     }
-
-    export type Axis = any
 }

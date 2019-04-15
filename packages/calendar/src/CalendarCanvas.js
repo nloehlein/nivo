@@ -14,8 +14,8 @@ import {
     Container,
     degreesToRadians,
     BasicTooltip,
-} from '@x-nivo/core'
-import { renderLegendToCanvas } from '@x-nivo/legends'
+} from '@nivo/core'
+import { renderLegendToCanvas } from '@nivo/legends'
 import enhance from './enhance'
 import { CalendarCanvasPropTypes } from './props'
 

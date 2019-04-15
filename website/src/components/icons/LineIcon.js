@@ -6,17 +6,13 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-import React from 'react'
-import { Line } from '@x-nivo/line'
-import lineLightNeutralImg from '../../assets/icons/line-light-neutral.png'
-import lineLightColoredImg from '../../assets/icons/line-light-colored.png'
-import lineDarkNeutralImg from '../../assets/icons/line-dark-neutral.png'
-import lineDarkColoredImg from '../../assets/icons/line-dark-colored.png'
-import { ICON_SIZE, Icon, colors, IconImg } from './styled'
+import React, { Fragment } from 'react'
+import { Line } from '@nivo/line'
+import lineGreyImg from '../../assets/icons/line-grey.png'
+import lineRedImg from '../../assets/icons/line-red.png'
+import { ICON_SIZE, Icon } from './styled'
 
 const chartProps = {
-    width: ICON_SIZE,
-    height: ICON_SIZE,
     margin: {
         top: 24,
         right: 5,
@@ -65,37 +61,57 @@ const chartProps = {
     },
 }
 
-const LineIconItem = ({ type }) => (
-    <Icon id={`line-${type}`} type={type}>
-        <Line
-            {...chartProps}
-            colors={[colors[type].colors[2], colors[type].colors[4]]}
-            theme={{
-                axis: {
-                    domain: {
-                        line: {
-                            stroke: colors[type].colors[3],
-                            strokeWidth: 3,
-                            strokeLinecap: 'square',
+const LineIcon = () => (
+    <Fragment>
+        <Icon id="line-grey">
+            <Line
+                width={ICON_SIZE}
+                height={ICON_SIZE}
+                {...chartProps}
+                colors={['#989898', '#686868']}
+                theme={{
+                    axis: {
+                        domain: {
+                            line: {
+                                stroke: '#828282',
+                                strokeWidth: 3,
+                                strokeLinecap: 'square',
+                            },
                         },
                     },
-                },
+                }}
+            />
+        </Icon>
+        <Icon
+            style={{
+                backgroundImage: `url(${lineGreyImg})`,
             }}
         />
-    </Icon>
-)
-
-const LineIcon = () => (
-    <>
-        <LineIconItem type="lightNeutral" />
-        <IconImg url={lineLightNeutralImg} />
-        <LineIconItem type="lightColored" />
-        <IconImg url={lineLightColoredImg} />
-        <LineIconItem type="darkNeutral" />
-        <IconImg url={lineDarkNeutralImg} />
-        <LineIconItem type="darkColored" />
-        <IconImg url={lineDarkColoredImg} />
-    </>
+        <Icon id="line-red">
+            <Line
+                width={ICON_SIZE}
+                height={ICON_SIZE}
+                {...chartProps}
+                colors={['#ff745d', '#e54127']}
+                theme={{
+                    axis: {
+                        domain: {
+                            line: {
+                                stroke: '#ef634e',
+                                strokeWidth: 3,
+                                strokeLinecap: 'square',
+                            },
+                        },
+                    },
+                }}
+            />
+        </Icon>
+        <Icon
+            style={{
+                backgroundImage: `url(${lineRedImg})`,
+            }}
+        />
+    </Fragment>
 )
 
 export default LineIcon

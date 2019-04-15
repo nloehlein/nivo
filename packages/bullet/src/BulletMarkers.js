@@ -9,7 +9,7 @@
 import React, { Component, Fragment } from 'react'
 import PropTypes from 'prop-types'
 import { TransitionMotion, spring } from 'react-motion'
-import { motionPropTypes, colorMotionSpring, getInterpolatedColor } from '@x-nivo/core'
+import { motionPropTypes, colorMotionSpring, getInterpolatedColor } from '@nivo/core'
 import partial from 'lodash/partial'
 
 const getPositionGenerator = ({ layout, reverse, scale, height, markerSize }) => {

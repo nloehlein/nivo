@@ -1,31 +1,6 @@
 import * as React from 'react'
-import { number } from 'prop-types'
 
-declare module '@x-nivo/core' {
-    export interface Dimensions {
-        height: number
-        width: number
-    }
-
-    export type Box = Partial<{
-        bottom: number
-        left: number
-        right: number
-        top: number
-    }>
-    export type BoxAlign =
-        | 'center'
-        | 'top-left'
-        | 'top'
-        | 'top-right'
-        | 'right'
-        | 'bottom-right'
-        | 'bottom'
-        | 'bottom-left'
-        | 'left'
-    export const boxAlignments: BoxAlign[]
-    export function alignBox(box: Box, container: Box, alignment: BoxAlign): [number, number]
-
+declare module '@nivo/core' {
     export type GetColor<T> = (datum: T) => string
     export type Colors = string[] | string
     export interface ColorProps<T> {
@@ -71,6 +46,18 @@ declare module '@x-nivo/core' {
             table: Partial<React.CSSProperties>
             tableCell: Partial<React.CSSProperties>
         }>
+    }>
+
+    export interface Dimensions {
+        height: number
+        width: number
+    }
+
+    export type Box = Partial<{
+        bottom: number
+        left: number
+        right: number
+        top: number
     }>
 
     export type MotionProps = Partial<{

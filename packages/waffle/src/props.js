@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { defsPropTypes, noop } from '@x-nivo/core'
-import { LegendPropShape } from '@x-nivo/legends'
+import { defsPropTypes, noop } from '@nivo/core'
+import { LegendPropShape } from '@nivo/legends'
 import WaffleCell from './WaffleCell'
 import WaffleCellHtml from './WaffleCellHtml'
 

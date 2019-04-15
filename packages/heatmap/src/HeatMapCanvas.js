@@ -8,8 +8,8 @@
  */
 import React, { Component } from 'react'
 import partial from 'lodash/partial'
-import { Container, getRelativeCursor, isCursorInRect } from '@x-nivo/core'
-import { renderAxesToCanvas } from '@x-nivo/axes'
+import { Container, getRelativeCursor, isCursorInRect } from '@nivo/core'
+import { renderAxesToCanvas } from '@nivo/axes'
 import { renderRect, renderCircle } from './canvas'
 import computeNodes from './computeNodes'
 import HeatMapCellTooltip from './HeatMapCellTooltip'

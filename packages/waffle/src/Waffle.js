@@ -7,11 +7,11 @@
  * file that was distributed with this source code.
  */
 import React, { Component, Fragment } from 'react'
-import partial from 'lodash.partial'
+import partial from 'lodash/partial'
 import { TransitionMotion, spring } from 'react-motion'
 import setDisplayName from 'recompose/setDisplayName'
-import { Container, SvgWrapper } from '@x-nivo/core'
-import { BoxLegendSvg } from '@x-nivo/legends'
+import { Container, SvgWrapper } from '@nivo/core'
+import { BoxLegendSvg } from '@nivo/legends'
 import { WafflePropTypes } from './props'
 import enhance from './enhance'
 import { applyDataToGrid } from './compute'

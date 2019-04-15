@@ -1,6 +1,6 @@
 {
-  "name": "@x-nivo/generators",
-  "version": "0.56.6",
+  "name": "@nivo/generators",
+  "version": "0.54.0",
   "licenses": [
     {
       "type": "MIT",
@@ -30,6 +30,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "gitHead": "1d9f637cc1bf7f452488f31476fd41314f98dcb8"
+  }
 }

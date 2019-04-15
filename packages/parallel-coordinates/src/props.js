@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { themePropType, lineCurvePropType } from '@x-nivo/core'
+import { themePropType, lineCurvePropType } from '@nivo/core'
 
 const commonVariablePropTypes = {
     key: PropTypes.string.isRequired,

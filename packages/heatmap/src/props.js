@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { quantizeColorScalePropType, noop } from '@x-nivo/core'
-import { axisPropType } from '@x-nivo/axes'
+import { quantizeColorScalePropType, noop } from '@nivo/core'
+import { axisPropType } from '@nivo/axes'
 
 export const HeatMapPropTypes = {
     data: PropTypes.arrayOf(PropTypes.object).isRequired,

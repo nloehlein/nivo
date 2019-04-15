@@ -1,6 +1,6 @@
 import React from 'react'
-import { ResponsivePie } from '@x-nivo/pie'
-import { generateProgrammingLanguageStats } from '@x-nivo/generators'
+import { ResponsivePie } from '@nivo/pie'
+import { generateProgrammingLanguageStats } from '@nivo/generators'
 import { colors } from '../../constants'
 
 const Pie = () => (

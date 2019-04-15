@@ -8,7 +8,7 @@
  */
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
-import { SmartMotion, motionPropTypes, themePropType } from '@x-nivo/core'
+import { SmartMotion, motionPropTypes, themePropType } from '@nivo/core'
 import ParallelCoordinatesLineTooltip from './ParallelCoordinatesLineTooltip'
 
 export default class ParallelCoordinatesLine extends PureComponent {

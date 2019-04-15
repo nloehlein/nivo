@@ -9,7 +9,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { TransitionMotion, spring } from 'react-motion'
-import { motionPropTypes, getLabelGenerator, dotsThemePropType, DotsItem } from '@x-nivo/core'
+import { motionPropTypes, getLabelGenerator, dotsThemePropType, DotsItem } from '@nivo/core'
 
 const LineDots = ({
     lines,

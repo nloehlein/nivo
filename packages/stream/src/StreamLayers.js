@@ -8,9 +8,9 @@
  */
 import React from 'react'
 import PropTypes from 'prop-types'
-import { motionPropTypes } from '@x-nivo/core'
-import { SmartMotion } from '@x-nivo/core'
-import { BasicTooltip } from '@x-nivo/core'
+import { motionPropTypes } from '@nivo/core'
+import { SmartMotion } from '@nivo/core'
+import { BasicTooltip } from '@nivo/core'
 
 const StreamLayers = ({
     layers,

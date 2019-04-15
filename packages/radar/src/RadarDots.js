@@ -16,7 +16,7 @@ import {
     positionFromAngle,
     getLabelGenerator,
     DotsItem,
-} from '@x-nivo/core'
+} from '@nivo/core'
 
 export default class RadarDots extends Component {
     static propTypes = {

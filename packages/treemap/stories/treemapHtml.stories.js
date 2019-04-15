@@ -1,6 +1,6 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
-import { generateLibTree } from '@x-nivo/generators'
+import { generateLibTree } from '@nivo/generators'
 import { TreeMapHtml } from '../src'
 
 const commonProperties = {

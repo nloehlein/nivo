@@ -6,11 +6,11 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-import React, { Component } from 'react'
+import React from 'react'
 import renderer from 'react-test-renderer'
 import { mount } from 'enzyme'
-import { defaultTheme, themeContext } from '@x-nivo/core'
-import { default as BaseLegendSvgItem } from '../../src/svg/LegendSvgItem'
+import { defaultTheme } from '@nivo/core'
+import LegendSvgItem from '../../src/svg/LegendSvgItem'
 import * as shapes from '../../src/svg/symbols'
 import {
     DIRECTION_LEFT_TO_RIGHT,
@@ -24,6 +24,7 @@ const commonProps = {
     y: 0,
     width: 200,
     height: 36,
+    theme: defaultTheme,
     data: {
         id: 'testing',
         label: 'testing',
@@ -37,20 +38,6 @@ const directions = [
     DIRECTION_TOP_TO_BOTTOM,
     DIRECTION_BOTTOM_TO_TOP,
 ]
-
-const withTheme = WrappedComponent => {
-    return class ThemedLegendSvgItem extends Component {
-        render() {
-            return (
-                <themeContext.Provider value={defaultTheme}>
-                    <WrappedComponent {...this.props} />
-                </themeContext.Provider>
-            )
-        }
-    }
-}
-
-const LegendSvgItem = withTheme(BaseLegendSvgItem)
 
 directions.forEach(direction => {
     it(`should support ${direction} direction`, () => {

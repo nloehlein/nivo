@@ -8,7 +8,7 @@
  */
 import React, { Fragment, PureComponent } from 'react'
 import PropTypes from 'prop-types'
-import { motionPropTypes, axisThemePropType } from '@x-nivo/core'
+import { motionPropTypes, axisThemePropType } from '@nivo/core'
 import Axis from './Axis'
 import { axisPropType } from '../props'
 

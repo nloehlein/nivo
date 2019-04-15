@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 'use strict'
-const { generateCountriesData } = require('@x-nivo/generators')
+const { generateCountriesData } = require('@nivo/generators')
 
 const keys = [
     'hot dogs',

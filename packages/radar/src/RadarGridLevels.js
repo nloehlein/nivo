@@ -11,7 +11,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import pure from 'recompose/pure'
 import { TransitionMotion, spring } from 'react-motion'
-import { motionPropTypes } from '@x-nivo/core'
+import { motionPropTypes } from '@nivo/core'
 import { lineRadial, curveLinearClosed } from 'd3-shape'
 
 const levelWillEnter = () => ({ r: 0 })
@@ -21,7 +21,10 @@ const RadarGridLevels = ({
     radii,
     angleStep,
     dataLength,
+
     theme,
+
+    // motion
     animate,
     motionStiffness,
     motionDamping,
@@ -80,7 +83,7 @@ const RadarGridLevels = ({
                         key={`level.${i}`}
                         fill="none"
                         d={radarLineGenerator.radius(radius)(points)}
-                        {...theme.grid.line}
+                        {...theme.grid}
                     />
                 ))}
             </g>
@@ -96,7 +99,7 @@ const RadarGridLevels = ({
                             key={key}
                             fill="none"
                             d={radarLineGenerator.radius(style.r)(points)}
-                            {...theme.grid.line}
+                            {...theme.grid}
                         />
                     ))}
                 </g>
@@ -110,7 +113,10 @@ RadarGridLevels.propTypes = {
     radii: PropTypes.arrayOf(PropTypes.number).isRequired,
     angleStep: PropTypes.number.isRequired,
     dataLength: PropTypes.number.isRequired,
+
     theme: PropTypes.object.isRequired,
+
+    // motion
     ...motionPropTypes,
 }
 

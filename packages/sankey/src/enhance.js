@@ -16,7 +16,7 @@ import {
     withTheme,
     withDimensions,
     withMotion,
-} from '@x-nivo/core'
+} from '@nivo/core'
 import { SankeyDefaultProps, sankeyAlignmentFromProp } from './props'
 
 const getId = d => d.id
@@ -45,10 +45,8 @@ export default Component =>
             getLabel: getLabelGenerator(label, labelFormat),
         })),
         withPropsOnChange(['sort'], ({ sort }) => {
-            let sortFunction = sort
-            if (sort === 'auto') {
-                sortFunction = undefined
-            } else if (sort === 'input') {
+            let sortFunction
+            if (sort === 'input') {
                 sortFunction = null
             } else if (sort === 'ascending') {
                 sortFunction = (a, b) => a.value - b.value

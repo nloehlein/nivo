@@ -24,8 +24,8 @@ import {
     getAccessorFor,
     Container,
     SvgWrapper,
-} from '@x-nivo/core'
-import { LegendPropShape, BoxLegendSvg } from '@x-nivo/legends'
+} from '@nivo/core'
+import { LegendPropShape, BoxLegendSvg } from '@nivo/legends'
 import RadarShapes from './RadarShapes'
 import RadarGrid from './RadarGrid'
 import RadarTooltip from './RadarTooltip'
@@ -43,6 +43,7 @@ const Radar = ({
     radiusScale,
     angleStep,
 
+    // dimensions
     centerX,
     centerY,
     margin, // eslint-disable-line react/prop-types
@@ -51,14 +52,17 @@ const Radar = ({
     outerWidth, // eslint-disable-line react/prop-types
     outerHeight, // eslint-disable-line react/prop-types
 
+    // border
     borderWidth,
     borderColor,
 
+    // grid
     gridLevels,
     gridShape,
     gridLabel,
     gridLabelOffset,
 
+    // dots
     enableDots,
     dotSymbol,
     dotSize,
@@ -74,10 +78,12 @@ const Radar = ({
     fillOpacity,
     colorByKey,
 
+    // motion
     animate, // eslint-disable-line react/prop-types
     motionStiffness, // eslint-disable-line react/prop-types
     motionDamping, // eslint-disable-line react/prop-types
 
+    // interactivity
     isInteractive,
     tooltipFormat,
 

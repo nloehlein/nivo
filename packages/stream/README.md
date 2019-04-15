@@ -1,6 +1,6 @@
-# `@x-nivo/stream`
+# `@nivo/stream`
 
-[![version](https://img.shields.io/npm/v/@x-nivo/stream.svg?style=flat-square)](https://www.npmjs.com/package/@x-nivo/stream)
+[![version](https://img.shields.io/npm/v/@nivo/stream.svg?style=flat-square)](https://www.npmjs.com/package/@nivo/stream)
 
 ## Stream
 

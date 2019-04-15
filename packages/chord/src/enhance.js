@@ -13,9 +13,9 @@ import withPropsOnChange from 'recompose/withPropsOnChange'
 import pure from 'recompose/pure'
 import { arc as d3Arc } from 'd3-shape'
 import { chord as d3Chord, ribbon as d3Ribbon } from 'd3-chord'
-import { getInheritedColorGenerator, getColorRange } from '@x-nivo/core'
-import { getLabelGenerator } from '@x-nivo/core'
-import { withMotion, withTheme, withDimensions } from '@x-nivo/core'
+import { getInheritedColorGenerator, getColorRange } from '@nivo/core'
+import { getLabelGenerator } from '@nivo/core'
+import { withMotion, withTheme, withDimensions } from '@nivo/core'
 import { ChordDefaultProps } from './props'
 
 export default Component =>

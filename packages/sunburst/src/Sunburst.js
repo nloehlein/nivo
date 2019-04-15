@@ -25,7 +25,7 @@ import {
     getAccessorFor,
     Container,
     SvgWrapper,
-} from '@x-nivo/core'
+} from '@nivo/core'
 import SunburstArc from './SunburstArc'
 
 const getAncestor = node => {

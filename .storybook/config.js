@@ -45,7 +45,6 @@ addDecorator(withInfo({
 
 function loadStories() {
     require('../packages/bar/stories/bar.stories')
-    // require('../packages/bar/stories/bar_00.stories')
     require('../packages/bar/stories/barCanvas.stories')
     require('../packages/bullet/stories/bullet.stories')
     require('../packages/calendar/stories/calendar.stories')
@@ -63,7 +62,6 @@ function loadStories() {
     require('../packages/sunburst/stories/sunburst.stories')
     require('../packages/treemap/stories/treemap.stories')
     require('../packages/treemap/stories/treemapHtml.stories')
-    // require('../packages/voronoi/stories/voronoi.stories')
     require('../packages/waffle/stories/waffle.stories')
     require('../packages/waffle/stories/waffle-html.stories')
     require('../packages/waffle/stories/waffle-canvas.stories')

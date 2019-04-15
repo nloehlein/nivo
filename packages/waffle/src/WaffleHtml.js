@@ -7,10 +7,10 @@
  * file that was distributed with this source code.
  */
 import React, { Component, Fragment } from 'react'
-import partial from 'lodash.partial'
+import partial from 'lodash/partial'
 import setDisplayName from 'recompose/setDisplayName'
 import { TransitionMotion, spring } from 'react-motion'
-import { Container } from '@x-nivo/core'
+import { Container } from '@nivo/core'
 import enhance from './enhance'
 import { WaffleHtmlPropTypes } from './props'
 import { applyDataToGrid } from './compute'

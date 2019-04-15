@@ -8,9 +8,6 @@
  */
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import Control from './Control'
-import PropertyHeader from './PropertyHeader'
-import { Help } from './styled'
 
 class ColorPickerControl extends Component {
     handleChange = e => {
@@ -18,27 +15,32 @@ class ColorPickerControl extends Component {
     }
 
     render() {
-        const { id, property, value } = this.props
+        const { value, label, help } = this.props
 
         return (
-            <Control description={property.description}>
-                <PropertyHeader id={id} {...property} />
+            <div className="control control-color">
+                <label className="control_label">
+                    {label}: <code className="code code-string">'{value}'</code>
+                </label>
                 <div>
-                    <input type="color" id={id} onChange={this.handleChange} value={value} />
-                    &nbsp;&nbsp;&nbsp;
-                    <code className="code code-string">{value}</code>
+                    <input type="color" onChange={this.handleChange} value={value} />
                 </div>
-                <Help>{property.help}</Help>
-            </Control>
+                <div className="control-help">{help}</div>
+            </div>
         )
     }
 }
 
 ColorPickerControl.propTypes = {
-    id: PropTypes.string.isRequired,
-    property: PropTypes.object.isRequired,
-    value: PropTypes.string.isRequired,
+    label: PropTypes.string.isRequired,
+    help: PropTypes.node.isRequired,
     onChange: PropTypes.func.isRequired,
+    value: PropTypes.string.isRequired,
+}
+
+ColorPickerControl.defaultProps = {
+    label: 'color',
+    help: 'Color.',
 }
 
 export default ColorPickerControl

@@ -1,9 +1,8 @@
 import React from 'react'
-import { colorSchemeIds, colorSchemes } from '@x-nivo/core'
-import { Card } from '../../styled'
+import { colorSchemeIds, colorSchemes } from '@nivo/core'
 
 const ColorsRanges = () => (
-    <Card className="guide__table">
+    <div className="guide__table">
         <table>
             <tbody>
                 {colorSchemeIds.map(id => (
@@ -28,7 +27,7 @@ const ColorsRanges = () => (
                 ))}
             </tbody>
         </table>
-    </Card>
+    </div>
 )
 
 export default ColorsRanges

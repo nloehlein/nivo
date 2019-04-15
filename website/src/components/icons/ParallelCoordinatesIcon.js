@@ -6,13 +6,11 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-import React from 'react'
-import { ParallelCoordinates } from '@x-nivo/parallel-coordinates'
-import parallelCoordinatesLightNeutralImg from '../../assets/icons/parallel-coordinates-light-neutral.png'
-import parallelCoordinatesLightColoredImg from '../../assets/icons/parallel-coordinates-light-colored.png'
-import parallelCoordinatesDarkNeutralImg from '../../assets/icons/parallel-coordinates-dark-neutral.png'
-import parallelCoordinatesDarkColoredImg from '../../assets/icons/parallel-coordinates-dark-colored.png'
-import { ICON_SIZE, Icon, colors, IconImg } from './styled'
+import React, { Fragment } from 'react'
+import { ParallelCoordinates } from '@nivo/parallel-coordinates'
+import parallelCoordinatesGreyImg from '../../assets/icons/parallel-coordinates-grey.png'
+import parallelCoordinatesRedImg from '../../assets/icons/parallel-coordinates-red.png'
+import { ICON_SIZE, Icon } from './styled'
 
 const chartProps = (lineColor, axisColor) => ({
     width: ICON_SIZE,
@@ -103,26 +101,30 @@ const chartProps = (lineColor, axisColor) => ({
         },
     ],
     isInteractive: false,
-    animate: false,
 })
 
-const ParallelCoordinatesIconItem = ({ type }) => (
-    <Icon id={`parallel-coordinates-${type}`} type={type}>
-        <ParallelCoordinates {...chartProps(colors[type].colors[1], colors[type].colors[4])} />
-    </Icon>
-)
+const greyProps = chartProps('#b6b4b5', '#686868')
+const redProps = chartProps('#ff7d67', '#e54127')
 
 const ParallelCoordinatesIcon = () => (
-    <>
-        <ParallelCoordinatesIconItem type="lightNeutral" />
-        <IconImg url={parallelCoordinatesLightNeutralImg} />
-        <ParallelCoordinatesIconItem type="lightColored" />
-        <IconImg url={parallelCoordinatesLightColoredImg} />
-        <ParallelCoordinatesIconItem type="darkNeutral" />
-        <IconImg url={parallelCoordinatesDarkNeutralImg} />
-        <ParallelCoordinatesIconItem type="darkColored" />
-        <IconImg url={parallelCoordinatesDarkColoredImg} />
-    </>
+    <Fragment>
+        <Icon id="parallel-coordinates-grey">
+            <ParallelCoordinates {...greyProps} />
+        </Icon>
+        <Icon
+            style={{
+                backgroundImage: `url(${parallelCoordinatesGreyImg})`,
+            }}
+        />
+        <Icon id="parallel-coordinates-red">
+            <ParallelCoordinates {...redProps} />
+        </Icon>
+        <Icon
+            style={{
+                backgroundImage: `url(${parallelCoordinatesRedImg})`,
+            }}
+        />
+    </Fragment>
 )
 
 export default ParallelCoordinatesIcon

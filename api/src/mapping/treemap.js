@@ -9,7 +9,7 @@
 'use strict'
 
 const Joi = require('joi')
-const { TreeMap } = require('@x-nivo/treemap')
+const { TreeMap } = require('@nivo/treemap')
 const common = require('./common')
 
 module.exports = {

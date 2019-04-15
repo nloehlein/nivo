@@ -67,7 +67,7 @@ export const datumPropType = PropTypes.shape({
  *
  * @example
  * ```javascript
- * import { LegendPropShape } from '@x-nivo/legends'
+ * import { LegendPropShape } from '@nivo/legends'
  *
  * const customLegendPropType = PropTypes.shape({
  *     ...LegendPropShape,

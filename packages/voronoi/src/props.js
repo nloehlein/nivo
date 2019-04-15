@@ -20,13 +20,6 @@ export const VoronoiPropTypes = {
     xDomain: PropTypes.arrayOf(PropTypes.number).isRequired,
     yDomain: PropTypes.arrayOf(PropTypes.number).isRequired,
 
-    layers: PropTypes.arrayOf(
-        PropTypes.oneOfType([
-            PropTypes.oneOf(['links', 'cells', 'points', 'bounds']),
-            PropTypes.func,
-        ])
-    ).isRequired,
-
     enableLinks: PropTypes.bool.isRequired,
     linkLineWidth: PropTypes.number.isRequired,
     linkLineColor: PropTypes.string.isRequired,
@@ -44,11 +37,6 @@ export const VoronoiPropTypes = {
 }
 
 export const VoronoiDefaultProps = {
-    xDomain: [0, 1],
-    yDomain: [0, 1],
-
-    layers: ['links', 'cells', 'points', 'bounds'],
-
     enableLinks: false,
     linkLineWidth: 1,
     linkLineColor: '#bbb',

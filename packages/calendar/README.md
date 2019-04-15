@@ -1,6 +1,6 @@
-# `@x-nivo/calendar`
+# `@nivo/calendar`
 
-[![version](https://img.shields.io/npm/v/@x-nivo/calendar.svg?style=flat-square)](https://www.npmjs.com/package/@x-nivo/calendar)
+[![version](https://img.shields.io/npm/v/@nivo/calendar.svg?style=flat-square)](https://www.npmjs.com/package/@nivo/calendar)
 
 ## Calendar
 

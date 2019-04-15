@@ -9,7 +9,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import pure from 'recompose/pure'
-import { themePropType } from '@x-nivo/core'
+import { themePropType } from '@nivo/core'
 
 const style = { cursor: 'pointer' }
 

@@ -23,7 +23,7 @@ import {
     withMotion,
     getColorRange,
     getInheritedColorGenerator,
-} from '@x-nivo/core'
+} from '@nivo/core'
 import { StreamDefaultProps } from './props'
 
 const stackMin = layers =>

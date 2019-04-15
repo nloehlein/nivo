@@ -9,7 +9,7 @@
 'use strict'
 
 const Joi = require('joi')
-const { HeatMap } = require('@x-nivo/heatmap')
+const { HeatMap } = require('@nivo/heatmap')
 const common = require('./common')
 
 module.exports = {

@@ -9,7 +9,7 @@
 import React, { memo } from 'react'
 import PropTypes from 'prop-types'
 import { compose, withPropsOnChange, pure } from 'recompose'
-import { BasicTooltip, noop } from '@x-nivo/core'
+import { BasicTooltip, noop } from '@nivo/core'
 
 const CalendarDay = memo(
     ({

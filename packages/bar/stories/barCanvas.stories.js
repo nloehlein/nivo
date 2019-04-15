@@ -1,6 +1,6 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
-import { generateCountriesData } from '@x-nivo/generators'
+import { generateCountriesData } from '@nivo/generators'
 import { BarCanvas } from '../src'
 
 const keys = ['hot dogs', 'burgers', 'sandwich', 'kebab', 'fries', 'donut']

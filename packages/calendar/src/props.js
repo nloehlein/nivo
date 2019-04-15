@@ -8,8 +8,8 @@
  */
 import PropTypes from 'prop-types'
 import { timeFormat } from 'd3-time-format'
-import { noop, boxAlignments } from '@x-nivo/core'
-import { LegendPropShape } from '@x-nivo/legends'
+import { noop } from '@nivo/core'
+import { LegendPropShape } from '@nivo/legends'
 
 const monthLabelFormat = timeFormat('%b')
 
@@ -22,12 +22,6 @@ const commonPropTypes = {
             value: PropTypes.number.isRequired,
         })
     ).isRequired,
-
-    align: PropTypes.oneOf(boxAlignments).isRequired,
-    originX: PropTypes.number.isRequired,
-    originY: PropTypes.number.isRequired,
-    calendarWidth: PropTypes.number.isRequired,
-    calendarHeight: PropTypes.number.isRequired,
 
     minValue: PropTypes.oneOfType([PropTypes.oneOf(['auto']), PropTypes.number]).isRequired,
     maxValue: PropTypes.oneOfType([PropTypes.oneOf(['auto']), PropTypes.number]).isRequired,
@@ -76,7 +70,6 @@ export const CalendarCanvasPropTypes = {
 const commonDefaultProps = {
     colors: ['#61cdbb', '#97e3d5', '#e8c1a0', '#f47560'],
 
-    align: 'center',
     direction: 'horizontal',
     emptyColor: '#fff',
 

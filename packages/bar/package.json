@@ -1,8 +1,11 @@
 {
-  "name": "@x-nivo/bar",
-  "version": "0.56.6",
+  "name": "@nivo/bar",
+  "version": "0.54.0",
   "license": "MIT",
-  "author": "Raphaël Benitte (https://github.com/plouc)",
+  "author": {
+    "name": "Raphaël Benitte",
+    "url": "https://github.com/plouc"
+  },
   "keywords": [
     "nivo",
     "dataviz",
@@ -20,9 +23,9 @@
     "dist/"
   ],
   "dependencies": {
-    "@x-nivo/axes": "^0.56.6",
-    "@x-nivo/core": "^0.56.6",
-    "@x-nivo/legends": "^0.56.6",
+    "@nivo/axes": "0.54.0",
+    "@nivo/core": "0.54.0",
+    "@nivo/legends": "0.54.0",
     "d3-scale": "^2.1.2",
     "d3-shape": "^1.2.2",
     "lodash": "^4.17.4",
@@ -35,6 +38,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "gitHead": "1d9f637cc1bf7f452488f31476fd41314f98dcb8"
+  }
 }

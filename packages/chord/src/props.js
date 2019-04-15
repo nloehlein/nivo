@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { blendModePropType } from '@x-nivo/core'
-import { LegendPropShape } from '@x-nivo/legends'
+import { blendModePropType } from '@nivo/core'
+import { LegendPropShape } from '@nivo/legends'
 
 export const ChordPropTypes = {
     matrix: PropTypes.arrayOf(PropTypes.arrayOf(PropTypes.number)).isRequired,

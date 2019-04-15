@@ -8,7 +8,7 @@
  */
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
-import { axisThemePropType } from '@x-nivo/core'
+import { axisThemePropType } from '@nivo/core'
 
 export default class AxisTick extends PureComponent {
     static propTypes = {

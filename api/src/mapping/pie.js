@@ -9,7 +9,7 @@
 'use strict'
 
 const Joi = require('joi')
-const { Pie } = require('@x-nivo/pie')
+const { Pie } = require('@nivo/pie')
 const common = require('./common')
 
 module.exports = {

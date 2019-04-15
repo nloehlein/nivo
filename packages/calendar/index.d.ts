@@ -1,8 +1,8 @@
 import * as React from 'react'
-import { Dimensions, Theme, Box, BoxAlign } from '@x-nivo/core'
-import { LegendProps } from '@x-nivo/legends'
+import { Dimensions, Theme, Box } from '@nivo/core'
+import { LegendProps } from '@nivo/legends'
 
-declare module '@x-nivo/calendar' {
+declare module '@nivo/calendar' {
     export type DateOrString = string | Date
 
     export interface CalendarDatum {
@@ -33,33 +33,36 @@ declare module '@x-nivo/calendar' {
     }
 
     export type CalendarCommonProps = Partial<{
-        minValue: 'auto' | number
-        maxValue: 'auto' | number
-
+        domain: 'auto' | number[]
         direction: CalendarDirection
         colors: string[]
         margin: Box
-        align: BoxAlign
 
+        // years
         yearLegend: (year: number) => string | number
         yearSpacing: number
         yearLegendOffset: number
 
+        // months
         monthLegend: (year: number, month: number, date: Date) => string | number
         monthBorderWidth: number
         monthBorderColor: string
         monthLegendOffset: number
 
+        // days
         daySpacing: number
         dayBorderWidth: number
         dayBorderColor: string
         emptyColor: string
 
+        // interactivity
         isInteractive: boolean
 
+        // tooltip
         tooltipFormat: (value: number) => string | number
         tooltip: React.StatelessComponent<CalendarDayData>
 
+        // legends
         legends: CalendarLegend[]
 
         theme: Theme
