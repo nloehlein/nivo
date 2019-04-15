@@ -94,7 +94,7 @@ class BulletItem extends Component {
         hideTooltip: PropTypes.func.isRequired,
     }
 
-    handleRangeTooltip = (showTooltip, range, event) => {
+    handleRangeTooltip = (showTooltip, rangeTooltip, range, event) => {
         const { theme } = this.props
         showTooltip(
             <BasicTooltip
@@ -113,7 +113,7 @@ class BulletItem extends Component {
         )
     }
 
-    handleMeasureTooltip = (showTooltip, measure, event) => {
+    handleMeasureTooltip = (showTooltip, measureTooltip, measure, event) => {
         const { theme } = this.props
         showTooltip(
             <BasicTooltip
@@ -128,7 +128,7 @@ class BulletItem extends Component {
         )
     }
 
-    handleMarkerTooltip = (showTooltip, marker, event) => {
+    handleMarkerTooltip = (showTooltip, markerTooltip, marker, event) => {
         const { theme } = this.props
         showTooltip(
             <BasicTooltip
@@ -228,7 +228,7 @@ class BulletItem extends Component {
                 width={width}
                 height={height}
                 component={rangeComponent}
-                onMouseEnter={partial(this.handleRangeTooltip, showTooltip)}
+                onMouseEnter={partial(this.handleRangeTooltip, showTooltip, rangeTooltip)}
                 onMouseLeave={hideTooltip}
                 onClick={this.handleRangeClick}
                 {...motionProps}
@@ -244,7 +244,7 @@ class BulletItem extends Component {
                 height={height}
                 markerSize={markerHeight}
                 component={markerComponent}
-                onMouseEnter={partial(this.handleMarkerTooltip, showTooltip)}
+                onMouseEnter={partial(this.handleMarkerTooltip, showTooltip, markerTooltip)}
                 onMouseLeave={hideTooltip}
                 onClick={this.handleMarkerClick}
                 {...motionProps}
@@ -306,7 +306,7 @@ class BulletItem extends Component {
                         width={width}
                         height={measureHeight}
                         component={measureComponent}
-                        onMouseEnter={partial(this.handleMeasureTooltip, showTooltip)}
+                        onMouseEnter={partial(this.handleMeasureTooltip, showTooltip, measureTooltip)}
                         onMouseLeave={hideTooltip}
                         onClick={this.handleMeasureClick}
                         {...motionProps}
