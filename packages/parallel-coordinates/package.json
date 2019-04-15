@@ -1,6 +1,6 @@
 {
-  "name": "@nivo/parallel-coordinates",
-  "version": "0.54.0",
+  "name": "@x-nivo/parallel-coordinates",
+  "version": "0.57.0",
   "license": "MIT",
   "author": {
     "name": "Raphaël Benitte",
