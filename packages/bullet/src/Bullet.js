@@ -52,6 +52,10 @@ export class Bullet extends Component {
 
             theme,
 
+            measureTooltip,
+            rangeTooltip,
+            markerTooltip,
+
             animate,
             motionStiffness,
             motionDamping,
@@ -137,6 +141,10 @@ export class Bullet extends Component {
                                 onRangeClick={onRangeClick}
                                 onMeasureClick={onMeasureClick}
                                 onMarkerClick={onMarkerClick}
+
+                                measureTooltip={measureTooltip}
+                                rangeTooltip={rangeTooltip}
+                                markerTooltip={markerTooltip}
                             />
                         ))}
                     </SvgWrapper>
