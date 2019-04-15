@@ -1,6 +1,6 @@
 {
   "name": "@x-nivo/bar",
-  "version": "0.56.5",
+  "version": "0.56.6",
   "license": "MIT",
   "author": "Raphaël Benitte (https://github.com/plouc)",
   "keywords": [
@@ -20,9 +20,9 @@
     "dist/"
   ],
   "dependencies": {
-    "@x-nivo/axes": "^0.56.5",
-    "@x-nivo/core": "^0.56.5",
-    "@x-nivo/legends": "^0.56.5",
+    "@x-nivo/axes": "^0.56.6",
+    "@x-nivo/core": "^0.56.6",
+    "@x-nivo/legends": "^0.56.6",
     "d3-scale": "^2.1.2",
     "d3-shape": "^1.2.2",
     "lodash": "^4.17.4",
