@@ -85,6 +85,10 @@ class BulletItem extends Component {
         markerColorScale: PropTypes.func.isRequired,
         onMarkerClick: PropTypes.func.isRequired,
 
+        markerTooltip: PropTypes.func,
+        measureTooltip: PropTypes.func,
+        rangeTooltip: PropTypes.func,
+
         theme: themePropType.isRequired,
         showTooltip: PropTypes.func.isRequired,
         hideTooltip: PropTypes.func.isRequired,
@@ -103,7 +107,7 @@ class BulletItem extends Component {
                 color={range.color}
                 theme={theme}
                 //format={format}
-                //renderContent={typeof tooltip === 'function' ? tooltip.bind(null, { ...node }) : null}
+                renderContent={typeof rangeTooltip === 'function' ? rangeTooltip.bind(null, { ...range }) : null}
             />,
             event
         )
@@ -118,7 +122,7 @@ class BulletItem extends Component {
                 color={measure.color}
                 theme={theme}
                 //format={format}
-                //renderContent={typeof tooltip === 'function' ? tooltip.bind(null, { ...node }) : null}
+                renderContent={typeof measureTooltip === 'function' ? measureTooltip.bind(null, { ...measure }) : null}
             />,
             event
         )
@@ -133,7 +137,7 @@ class BulletItem extends Component {
                 color={marker.color}
                 theme={theme}
                 //format={format}
-                //renderContent={typeof tooltip === 'function' ? tooltip.bind(null, { ...node }) : null}
+                renderContent={typeof markerTooltip === 'function' ? markerTooltip.bind(null, { ...marker }) : null}
             />,
             event
         )
@@ -190,6 +194,10 @@ class BulletItem extends Component {
 
             showTooltip,
             hideTooltip,
+
+            measureTooltip,
+            rangeTooltip,
+            markerTooltip,
 
             animate, // eslint-disable-line react/prop-types
             motionStiffness, // eslint-disable-line react/prop-types
