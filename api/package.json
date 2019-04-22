@@ -1,6 +1,6 @@
 {
   "name": "@x-nivo/api",
-  "version": "0.57.10",
+  "version": "0.57.12",
   "description": "Rendering API for nivo dataviz React/d3 components",
   "main": "src/app.js",
   "licenses": [
