@@ -22,9 +22,9 @@ export class Bullet extends Component {
         const { bulletTooltip, theme } = this.props
         showTooltip(
             <BasicTooltip
-                id={}
+                id={bullet.id}
                 enableChip={true}
-                color={}
+                color={bullet.color}
                 theme={theme}
                 //format={format}
                 renderContent={typeof bulletTooltip === 'function' ? bulletTooltip.bind(null, { ...bullet }) : null}
