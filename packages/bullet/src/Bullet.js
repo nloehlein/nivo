@@ -9,13 +9,29 @@
 import React, { Component } from 'react'
 import { scaleLinear } from 'd3-scale'
 import setDisplayName from 'recompose/setDisplayName'
-import { Container, SvgWrapper } from '@nivo/core'
+import {BasicTooltip, Container, SvgWrapper} from '@nivo/core'
 import { BulletPropTypes } from './props'
 import enhance from './enhance'
 import BulletItem from './BulletItem'
+import partial from 'lodash/partial'
 
 export class Bullet extends Component {
     static propTypes = BulletPropTypes
+
+    handleBulletTooltip = (showTooltip, bullet, event) => {
+        const { bulletTooltip, theme } = this.props
+        showTooltip(
+            <BasicTooltip
+                id={}
+                enableChip={true}
+                color={}
+                theme={theme}
+                //format={format}
+                renderContent={typeof bulletTooltip === 'function' ? bulletTooltip.bind(null, { ...bullet }) : null}
+            />,
+            event
+        )
+    }
 
     render() {
         const {
@@ -55,6 +71,7 @@ export class Bullet extends Component {
             measureTooltip,
             rangeTooltip,
             markerTooltip,
+            bulletTooltip,
 
             animate,
             motionStiffness,
@@ -112,6 +129,7 @@ export class Bullet extends Component {
                         {enhancedData.map((d, i) => (
                             <BulletItem
                                 key={d.id}
+                                data={d}
                                 {...d}
                                 layout={layout}
                                 reverse={reverse}
@@ -141,6 +159,9 @@ export class Bullet extends Component {
                                 onRangeClick={onRangeClick}
                                 onMeasureClick={onMeasureClick}
                                 onMarkerClick={onMarkerClick}
+
+                                onMouseEnter={partial(this.handleBulletTooltip, showTooltip)}
+                                onMouseLeave={hideTooltip}
 
                                 measureTooltip={measureTooltip}
                                 rangeTooltip={rangeTooltip}

@@ -92,6 +92,17 @@ class BulletItem extends Component {
         theme: themePropType.isRequired,
         showTooltip: PropTypes.func.isRequired,
         hideTooltip: PropTypes.func.isRequired,
+
+        onMouseEnter: PropTypes.func.isRequired,
+        onMouseLeave: PropTypes.func.isRequired,
+    }
+
+    handleMouseEnter = (data, event) => {
+        this.props.onMouseEnter(data, event)
+    }
+
+    handleMouseLeave = (data, event) => {
+        this.props.onMouseLeave(data, event)
     }
 
     handleRangeTooltip = (showTooltip, range, event) => {
@@ -161,6 +172,7 @@ class BulletItem extends Component {
     render() {
         const {
             id,
+            data,
 
             scale,
             layout,
@@ -294,7 +306,10 @@ class BulletItem extends Component {
 
         if (animate !== true) {
             return (
-                <g transform={`translate(${x},${y})`}>
+                <g transform={`translate(${x},${y})`}
+                    onMouseEnter={partial(this.handleMouseEnter, data)}
+                    onMouseMove={partial(this.handleMouseEnter, data)}
+                    onMouseLeave={partial(this.handleMouseLeave, data)}>
                     {rangeNodes}
                     <BulletRects
                         data={computedMeasures}
@@ -332,7 +347,10 @@ class BulletItem extends Component {
                 }}
             >
                 {values => (
-                    <g transform={`translate(${values.x},${values.y})`}>
+                    <g transform={`translate(${values.x},${values.y})`}
+                       onMouseEnter={partial(this.handleMouseEnter, data)}
+                       onMouseMove={partial(this.handleMouseEnter, data)}
+                       onMouseLeave={partial(this.handleMouseLeave, data)}>
                         {rangeNodes}
                         <BulletRects
                             data={computedMeasures}
